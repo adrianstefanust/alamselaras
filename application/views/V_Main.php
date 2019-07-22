@@ -13,7 +13,7 @@
 					<div class="col-lg-6">
 						<div class="logo">
 							<a href="index.html">
-								<img src="<?php echo base_url();?>assets/images/logo/logo-theme-light.png" alt="logo theme white">
+								<img src="<?php echo base_url();?>assets/images/longwayslogowhite.png"  alt="Responsive image" class="img-fluid"  height="350" width="350">
 							</a>
 						</div>
 					</div>
