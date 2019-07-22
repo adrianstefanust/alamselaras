@@ -980,7 +980,6 @@
   background-color:#1d1d1d !important;
   font-family: "Asap", sans-serif;
   color:#989898;
-  margin:10px;
   font-size:16px;
 }
 
@@ -1032,7 +1031,7 @@ img.zoom {
     }
 </style>
     <!-- Page Content -->
-   <div class="container ">
+   <div class="container">
    <p class="h1 mt-3 text text-center">Instagram Feed</p>
 
 
