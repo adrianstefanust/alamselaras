@@ -27,7 +27,7 @@ class C_Main extends CI_Controller {
 		}
 		$data['gambar']=$arrGambar;
 		$this->load->view('template/header');
-		//$this->load->view('template/topbar');
+		$this->load->view('template/topbar');
 		$this->load->view('V_Main',$data);
 		$this->load->view('template/footer');
 	}
