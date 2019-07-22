@@ -1,36 +1,4 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Karbar - Multipurpose Bootstrap 4 Template</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Favicons -->
-	<link rel="shortcut icon" href="../../assets/images/favicon.ico">
-	<link rel="apple-touch-icon" href="../../assets/images/icon.png">
-
-	<!-- Google font (font-family: 'Roboto', sans-serif;) -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-	<!-- Google font (font-family: 'Roboto Condensed', sans-serif;) -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
-
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../../assets/css/plugins.css">
-	<link rel="stylesheet" href="../../assets/style.css">
-
-	<!-- Cusom css -->
-	<link rel="stylesheet" href="../../assets/css/custom.css">
-
-	<!-- Modernizer js -->
-	<script src="../../assets/js/vendor/modernizr-3.5.0.min.js"></script>
-</head>
-
-<body>
-	  
 	<!-- Add your site or application content here -->
 	 
 
@@ -45,7 +13,7 @@
 					<div class="col-lg-6">
 						<div class="logo">
 							<a href="index.html">
-								<img src="../../assets/images/logo/logo-theme-light.png" alt="logo theme white">
+								<img src="<?php echo base_url();?>assets/images/logo/logo-theme-light.png" alt="logo theme white">
 							</a>
 						</div>
 					</div>
@@ -397,7 +365,7 @@
 				<div class="container d-block d-lg-none">
 					<div class="mobile-menu clearfix">
 						<a class="mobile-logo" href="index.html">
-							<img src="../../assets/images/logo/logo-theme-light.png" alt="mobile logo">
+							<img src="<?php echo base_url();?>assets/images/logo/logo-theme-light.png" alt="mobile logo">
 						</a>
 					</div>
 				</div>
@@ -416,13 +384,10 @@
 					<div class="row">
 						<div class="col-xl-7 col-lg-9 col-12">
 							<div class="single-banner-content single-banner-content-parallax">
-								<h3>Move On Next</h3>
-								<h1>With Your Passion</h1>
-								<p>Just keep moving only forward and don’t give a shit about what anybody thinks and don’t give a shit about what anybody
-								</p>
-								<a href="about-us-2.html" class="cr-btn cr-btn-lg">
-									<span>Know More</span>
-								</a>
+								<h3>Selamat datang di era baru perindustrian</h3>
+								<h2>“Tetap hijau, tetap selaras, tetap membumi”</h2>
+								
+								
 							</div>
 						</div>
 					</div>
@@ -436,13 +401,9 @@
 					<div class="row">
 						<div class="col-xl-7 col-lg-9 col-12">
 							<div class="single-banner-content single-banner-content-parallax">
-								<h3>Create Your Dream</h3>
-								<h1>And run for this</h1>
-								<p>Just keep moving only forward and don’t give a shit about what anybody thinks and don’t give a shit about what anybody
-								</p>
-								<a href="about-us-2.html" class="cr-btn cr-btn-lg">
-									<span>Know More</span>
-								</a>
+								<h3>Bantu kami untuk menjaga bumi tetap hijau</h3>
+								<h2>“Yang diperlukan agar dunia selaras hanyalah bila makhluk mengikuti hukum alam” </h2>
+								<h4>– Paulo Coelho-</h4>
 							</div>
 						</div>
 					</div>
@@ -483,10 +444,9 @@
 					<div class="row">
 						<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 offset-0">
 							<div class="section-title text-center">
-								<h6>WE ARE KARBAR</h6>
-								<h2>Create your dream</h2>
-								<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
-									form, by injected humour</p>
+								<h6>PT Alam Hijau Selaras </h6>
+								<h2>Selaras dengan alam</h2>
+								<p>Industri kami sedang bergerak menuju Industri Hijau dimana kami meminimalisir seluruh dampak negatif dari pembangunan dan kegiatan industri. Kami juga mengedepankan industri Padat Karya dengan mengajarkan keterampilan bagi sumber daya manusia yang kami bina.</p>
 							</div>
 						</div>
 					</div>
@@ -504,8 +464,8 @@
 									</span>
 								</div>
 								<div class="service-content">
-									<h4>Branding</h4>
-									<p>There are many variations of passages of Lorem Ipsum, but the majority</p>
+									<h4>Hijau</h4>
+									<p>Bergerak untuk bumi yang tetap hijau</p>
 								</div>
 							</div>
 						</div>
@@ -523,8 +483,8 @@
 									</span>
 								</div>
 								<div class="service-content">
-									<h4>Graphic Design</h4>
-									<p>There are many variations of passages of Lorem Ipsum, but the majority</p>
+									<h4>Kualitas Bersaing</h4>
+									<p>Salah satu produk terbaik di kelasnya, hanya untuk anda</p>
 								</div>
 							</div>
 						</div>
@@ -542,8 +502,8 @@
 									</span>
 								</div>
 								<div class="service-content">
-									<h4>Development</h4>
-									<p>There are many variations of passages of Lorem Ipsum, but the majority</p>
+									<h4>Pembangunan Manusia</h4>
+									<p>Kami membekali setiap orang dalam tim kami dengan keahlian, profesionalitas, dan rasa kekeluargaan. Minimnya pergantian anggota dalam tim kami adalah modal utama membangun perusahaan yang stabil dan selalu bergerak untuk menjadi lebih baik</p>
 								</div>
 							</div>
 						</div>
@@ -571,7 +531,7 @@
 						</div>
 						<div class="col-xl-7 col-lg-6 order-1 order-lg-2">
 							<div class="about-image text-center wow fadeInRight" data-tilt>
-								<img src="../../assets/images/about/about-thumb-1.png" alt="about thumb">
+								<img src="<?php echo base_url();?>assets/images/about/about-thumb-1.png" alt="about thumb">
 							</div>
 						</div>
 					</div>
@@ -611,7 +571,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-12 portfolio-single pfolio-filter-design pfolio-filter-photoshop">
 							<div class="portfolio">
 								<div class="portfoilo-thumb">
-									<img src="../../assets/images/portfolio/layout-1/portfolio-thumb-1.jpg" alt="portfolio thumb">
+									<img src="<?php echo base_url();?>assets/images/portfolio/layout-1/portfolio-thumb-1.jpg" alt="portfolio thumb">
 								</div>
 								<div class="portfolio-content">
 									<div class="portfolio-content-inner text-center">
@@ -629,7 +589,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-12 portfolio-single pfolio-filter-creative">
 							<div class="portfolio">
 								<div class="portfoilo-thumb">
-									<img src="../../assets/images/portfolio/layout-1/portfolio-thumb-2.jpg" alt="portfolio thumb">
+									<img src="<?php echo base_url();?>assets/images/portfolio/layout-1/portfolio-thumb-2.jpg" alt="portfolio thumb">
 								</div>
 								<div class="portfolio-content">
 									<div class="portfolio-content-inner text-center">
@@ -647,7 +607,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-12 portfolio-single pfolio-filter-design pfolio-filter-photoshop">
 							<div class="portfolio">
 								<div class="portfoilo-thumb">
-									<img src="../../assets/images/portfolio/layout-1/portfolio-thumb-3.jpg" alt="portfolio thumb">
+									<img src="<?php echo base_url();?>assets/images/portfolio/layout-1/portfolio-thumb-3.jpg" alt="portfolio thumb">
 								</div>
 								<div class="portfolio-content">
 									<div class="portfolio-content-inner text-center">
@@ -665,7 +625,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-12 portfolio-single pfolio-filter-creative pfolio-filter-design">
 							<div class="portfolio">
 								<div class="portfoilo-thumb">
-									<img src="../../assets/images/portfolio/layout-1/portfolio-thumb-4.jpg" alt="portfolio thumb">
+									<img src="<?php echo base_url();?>assets/images/portfolio/layout-1/portfolio-thumb-4.jpg" alt="portfolio thumb">
 								</div>
 								<div class="portfolio-content">
 									<div class="portfolio-content-inner text-center">
@@ -683,7 +643,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-12 portfolio-single pfolio-filter-design">
 							<div class="portfolio">
 								<div class="portfoilo-thumb">
-									<img src="../../assets/images/portfolio/layout-1/portfolio-thumb-5.jpg" alt="portfolio thumb">
+									<img src="<?php echo base_url();?>assets/images/portfolio/layout-1/portfolio-thumb-5.jpg" alt="portfolio thumb">
 								</div>
 								<div class="portfolio-content">
 									<div class="portfolio-content-inner text-center">
@@ -701,7 +661,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-12 portfolio-single pfolio-filter-creative pfolio-filter-photoshop">
 							<div class="portfolio">
 								<div class="portfoilo-thumb">
-									<img src="../../assets/images/portfolio/layout-1/portfolio-thumb-6.jpg" alt="portfolio thumb">
+									<img src="<?php echo base_url();?>assets/images/portfolio/layout-1/portfolio-thumb-6.jpg" alt="portfolio thumb">
 								</div>
 								<div class="portfolio-content">
 									<div class="portfolio-content-inner text-center">
@@ -745,7 +705,7 @@
 					</div>
 				</div>
 				<div class="mission-area-thumb">
-					<img class="wow fadeInRight" src="../../assets/images/about/mission-image-1.png" alt="mission area thumb">
+					<img class="wow fadeInRight" src="<?php echo base_url();?>assets/images/about/mission-image-1.png" alt="mission area thumb">
 				</div>
 			</section>
 			<!--// Mission Area -->
@@ -847,7 +807,7 @@
 						</div>
 						<div class="col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-12 offset-0 order-1 order-lg-2">
 							<div class="skills-area-thumb mt-5 mt-lg-0">
-								<img class="wow slideInRight" data-wow-duration="2s" src="../../assets/images/others/skill-area-thumb.png" alt="skill area thumb">
+								<img class="wow slideInRight" data-wow-duration="2s" src="<?php echo base_url();?>assets/images/others/skill-area-thumb.png" alt="skill area thumb">
 							</div>
 						</div>
 					</div>
@@ -938,73 +898,73 @@
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-1.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-1.png" alt="brand logo thumb">
 									</a>
 								</div>
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-2.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-2.png" alt="brand logo thumb">
 									</a>
 								</div>
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-3.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-3.png" alt="brand logo thumb">
 									</a>
 								</div>
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-4.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-4.png" alt="brand logo thumb">
 									</a>
 								</div>
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-5.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-5.png" alt="brand logo thumb">
 									</a>
 								</div>
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-6.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-6.png" alt="brand logo thumb">
 									</a>
 								</div>
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-1.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-1.png" alt="brand logo thumb">
 									</a>
 								</div>
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-2.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-2.png" alt="brand logo thumb">
 									</a>
 								</div>
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-3.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-3.png" alt="brand logo thumb">
 									</a>
 								</div>
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-4.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-4.png" alt="brand logo thumb">
 									</a>
 								</div>
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-5.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-5.png" alt="brand logo thumb">
 									</a>
 								</div>
 
 								<div class="brand-logo">
 									<a href="#">
-										<img src="../../assets/images/brand-logos/layout-a/brand-logo-6.png" alt="brand logo thumb">
+										<img src="<?php echo base_url();?>assets/images/brand-logos/layout-a/brand-logo-6.png" alt="brand logo thumb">
 									</a>
 								</div>
 
@@ -1015,6 +975,86 @@
 			</div>
 			<!--// Brand Logo Area -->
 
+
+			<style>body {
+  background-color:#1d1d1d !important;
+  font-family: "Asap", sans-serif;
+  color:#989898;
+  margin:10px;
+  font-size:16px;
+}
+
+#demo {
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+
+
+.green{
+  background-color:#6fb936;
+}
+        .thumb{
+			margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+       
+
+   
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+        
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
+</style>
+    <!-- Page Content -->
+   <div class="container ">
+   <p class="h1 mt-3 text text-center">Instagram Feed</p>
+
+
+        <div class="row">
+
+        <?php foreach($gambar as $row): ?>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="<?php echo $row?>" class="fancybox" rel="ligthbox">
+                    <img  src="<?php echo $row?>" class="zoom img-fluid "  alt="">
+                   
+                </a>
+            </div>
+            <?php endforeach; ?>
+            
+           
+           
+       </div>
+
+     
+      
+
+    </div>
 			<!-- Blogs Area -->
 			<section id="blogs-area" class="blogs-area section-padding-lg bg-white">
 				<div class="container">
@@ -1035,7 +1075,7 @@
 							<article class="blog">
 								<div class="blog-thumb">
 									<a href="blog-details.html">
-										<img src="../../assets/images/blog/layout-1/blog-thumbnail-1.jpg" alt="blog thumb">
+										<img src="<?php echo base_url();?>assets/images/blog/layout-1/blog-thumbnail-1.jpg" alt="blog thumb">
 									</a>
 								</div>
 								<div class="blog-content">
@@ -1060,7 +1100,7 @@
 							<article class="blog">
 								<div class="blog-thumb">
 									<a href="blog-details.html">
-										<img src="../../assets/images/blog/layout-1/blog-thumbnail-2.jpg" alt="blog thumb">
+										<img src="<?php echo base_url();?>assets/images/blog/layout-1/blog-thumbnail-2.jpg" alt="blog thumb">
 									</a>
 								</div>
 								<div class="blog-content">
@@ -1085,7 +1125,7 @@
 							<article class="blog">
 								<div class="blog-thumb">
 									<a href="blog-details.html">
-										<img src="../../assets/images/blog/layout-1/blog-thumbnail-3.jpg" alt="blog thumb">
+										<img src="<?php echo base_url();?>assets/images/blog/layout-1/blog-thumbnail-3.jpg" alt="blog thumb">
 									</a>
 								</div>
 								<div class="blog-content">
@@ -1132,207 +1172,4 @@
 		</main>
 		<!-- //Page Content -->
 
-		<!-- Footer Area -->
-		<footer id="footer" class="footer-area">
-
-			<!-- Footer Top Area -->
-			<div class="footer-top-area bg-dark-light section-padding-sm">
-				<div class="container">
-					<div class="footer-widgets widgets">
-						<div class="row">
-
-							<div class="col-lg-4 col-md-6 col-12">
-								<!-- Single Widget -->
-								<div class="single-widget footer-widget-about">
-									<a href="index.html">
-										<img src="../../assets/images/logo/logo-theme-light.png" alt="footer logo">
-									</a>
-									<p>long established fact that a reader will be distracted by the readable content by the readable content established
-										fact that</p>
-								</div>
-								<!--// Single Widget -->
-
-								<!-- Single Widget -->
-								<div class="single-widget widget-newsletter">
-									<form action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&id=05d85f18ef" method="post" class="newsletter-widget-form">
-										<input type="email" placeholder="Your Email">
-										<button type="submit" class="cr-btn cr-btn-sm">
-											<span>Subscribe</span>
-										</button>
-									</form>
-								</div>
-								<!--// Single Widget -->
-							</div>
-
-							<div class="col-lg-2 col-md-6 col-12">
-								<!-- Single Widget -->
-								<div class="single-widget widget-quick-links">
-									<h5 class="footer-widget-title">QUICK LINK</h5>
-									<ul>
-										<li>
-											<a href="index.html">Home</a>
-										</li>
-										<li>
-											<a href="about-us.html">About Us</a>
-										</li>
-										<li>
-											<a href="blog-fullwidth.html">Blog Pages</a>
-										</li>
-										<li>
-											<a href="contact-us.html">Quick Contact</a>
-										</li>
-										<li>
-											<a href="about-us-2.html">Karbar History</a>
-										</li>
-										<li>
-											<a href="services.html">Our Services</a>
-										</li>
-									</ul>
-								</div>
-								<!--// Single Widget -->
-							</div>
-
-							<div class="col-lg-3 col-md-6 col-12">
-								<!-- Single Widget -->
-								<div class="single-widget widget-latest-blog">
-									<h5 class="footer-widget-title">Latest Blog</h5>
-									<ul>
-										<li>
-											<a href="blog-details.html" class="widget-latest-blog-thumb">
-												<img src="../../assets/images/blog/footer-latest-blog/latest-blog-thumb-1.png" alt="footer latest blog">
-											</a>
-											<div class="widget-latest-blog-content">
-												<h6>
-													<a href="blog-details.html">Some patience for the modern market</a>
-												</h6>
-												<div class="widget-latest-blog-meta">
-													<span>21 Aug 2017</span>
-													<span>By
-														<a href="blog-fullwidth.html">Admin</a>
-													</span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<a href="blog-details.html" class="widget-latest-blog-thumb">
-												<img src="../../assets/images/blog/footer-latest-blog/latest-blog-thumb-2.png" alt="footer latest blog">
-											</a>
-											<div class="widget-latest-blog-content">
-												<h6>
-													<a href="blog-details.html">Patience for the modern market</a>
-												</h6>
-												<div class="widget-latest-blog-meta">
-													<span>21 Aug 2017</span>
-													<span>By
-														<a href="blog-fullwidth.html">Admin</a>
-													</span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<a href="blog-details.html" class="widget-latest-blog-thumb">
-												<img src="../../assets/images/blog/footer-latest-blog/latest-blog-thumb-3.png" alt="footer latest blog">
-											</a>
-											<div class="widget-latest-blog-content">
-												<h6>
-													<a href="blog-details.html">Some patience the modern market & new Generation</a>
-												</h6>
-												<div class="widget-latest-blog-meta">
-													<span>21 Aug 2017</span>
-													<span>By
-														<a href="blog-fullwidth.html">Admin</a>
-													</span>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<!--// Single Widget -->
-							</div>
-
-							<div class="col-lg-3 col-md-6 col-12">
-								<!-- Single Widget -->
-								<div class="single-widget widget-quick-contact">
-									<h5 class="footer-widget-title">Quick Contact</h5>
-									<ul>
-										<li>
-											<span>Phone</span>
-											<p>
-												<a href="tel:+01234567890123">+01234567890123</a>
-											</p>
-											<p>
-												<a href="tel:+01234567890124">+01234567890124</a>
-											</p>
-										</li>
-										<li>
-											<span>Email</span>
-											<p>
-												<a href="#">info@example.com</a>
-											</p>
-											<p>
-												<a href="#">info@example.com</a>
-											</p>
-										</li>
-										<li>
-											<span>Address</span>
-											<p>34/5 evergreen road, karbar city New work, United States</p>
-										</li>
-									</ul>
-								</div>
-								<!--// Single Widget -->
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--// Footer Top Area -->
-
-			<!-- Footer Bottom Area -->
-			<div class="footer-bottom-area bg-dark">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8">
-							<ul class="footer-social">
-								<li>
-									<a href="https://www.facebook.com/">Facebook</a>
-								</li>
-								<li>
-									<a href="https://twitter.com/">Twitter</a>
-								</li>
-								<li>
-									<a href="https://plus.google.com/">Google+</a>
-								</li>
-								<li>
-									<a href="https://www.linkedin.com/">Linkedin</a>
-								</li>
-								<li>
-									<a href="https://www.behance.net/">Behance</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-lg-4">
-							<p class="footer-copyright">Copyright &copy;
-								<a href="https://hastech.company/">Themes-Hub</a> 2018. All Right Reserved</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--// Footer Bottom Area -->
-
-		</footer>
-		<!-- //Footer Area -->
-
-	</div>
-	<!-- //Main wrapper -->
-
-	<!-- JS Files -->
-	<script src="../../assets/js/vendor/jquery-3.2.1.min.js"></script>
-	<script src="../../assets/js/popper.min.js"></script>
-	<script src="../../assets/js/bootstrap.min.js"></script>
-	<script src="../../assets/js/plugins.js"></script>
-	<script src="../../assets/js/active.js"></script>
-	<script src="../../assets/js/scripts.js"></script>
-</body>
-
-</html>
+		
