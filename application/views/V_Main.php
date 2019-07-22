@@ -665,7 +665,7 @@ img.zoom {
     }
 </style>
     <!-- Page Content -->
-   <div class="container ">
+   <div class="container">
    <p class="h1 mt-3 text text-center">Instagram Feed</p>
 
 
