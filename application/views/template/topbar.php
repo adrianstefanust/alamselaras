@@ -1,17 +1,16 @@
 		<header class="header header-style-2 megamenu-container theme-color transparent-header sticky-header">
 
-			<div class="container d-none d-lg-block ml-auto" >
-				<div class="row align-items-center">
-					<div class="col-lg-4">
+			<div class="container d-none d-lg-block ml-3" >
+				<div class="row">
+					<div class="col-lg-6">
 						<div class="logo">
 							<a href="index.html">
-								<img src="<?php echo base_url();?>assets/images/longwayslogowhite.png"  alt="Responsive image" class="img-fluid"  height="450" width="450">
+								<img src="<?php echo base_url();?>assets/images/longwayslogowhite.png"  alt="Responsive image" class="img-fluid"  height="300" width="350">
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-8">
+					<div class="col-lg-6 mr-20">
 						<div class="header-rightside text-right">
-
 							<!-- Slide Menu -->
 							<div class="slide-menu-wrapper">
 								<button class="trigger-menu-icon">
