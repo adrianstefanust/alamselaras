@@ -1,7 +1,7 @@
 		<header class="header header-style-2 megamenu-container theme-color transparent-header sticky-header">
 
-			<div class="container d-none d-lg-block ml-3" >
-				<div class="row">
+			<div class="container d-none d-lg-block" >
+				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="logo">
 							<a href="index.html">
@@ -9,7 +9,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-6 mr-20">
+					<div class="col-lg-6">
 						<div class="header-rightside text-right">
 							<!-- Slide Menu -->
 							<div class="slide-menu-wrapper">
@@ -24,7 +24,7 @@
 											<a href="index.html">Home</a>
 										</li>
 										<li class="cr-dropdown">
-											<a href="about-us.html">ABOUT US</a>
+											<a href="V_About.php">ABOUT US</a>
 										</li>
 										<li class="cr-megamenu">
 											<a href="#">Products</a>
@@ -118,9 +118,6 @@
 														<a href="blog-left-sidebar.html">Others</a>
 													</li>
 												</ul>
-											</li>
-											<li class="cr-dropdown">
-												<a href="contact-us.html">CONTACT</a>
 											</li>
 									</ul>
 								</nav>

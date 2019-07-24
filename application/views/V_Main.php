@@ -18,10 +18,8 @@
 					<div class="row">
 						<div class="col-xl-7 col-lg-9 col-12">
 							<div class="single-banner-content single-banner-content-parallax">
-								<h3>Selamat datang di era baru perindustrian</h3>
-								<h2>“Tetap hijau, tetap selaras, tetap membumi”</h2>
-								
-								
+								<h4>Selamat datang di era baru perindustrian</h4>
+								<h5>“Tetap hijau, tetap selaras, tetap membumi”</h5>
 							</div>
 						</div>
 					</div>
@@ -35,9 +33,9 @@
 					<div class="row">
 						<div class="col-xl-7 col-lg-9 col-12">
 							<div class="single-banner-content single-banner-content-parallax">
-								<h3>Bantu kami untuk menjaga bumi tetap hijau</h3>
-								<h2>“Yang diperlukan agar dunia selaras hanyalah bila makhluk mengikuti hukum alam” </h2>
-								<h4>– Paulo Coelho-</h4>
+								<h4>Bantu kami untuk menjaga bumi tetap hijau</h4>
+								<h5>“Yang diperlukan agar dunia selaras hanyalah bila makhluk mengikuti hukum alam” </h5>
+								<h6>– Paulo Coelho-</h6>
 							</div>
 						</div>
 					</div>
@@ -52,9 +50,9 @@
 						<div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-12">
 							<div class="single-banner-content single-banner-content-parallax text-center">
 								<h3>Move On Next</h3>
-								<h1>With Your Passion</h1>
+								<h1>Alam Hijau Selaras</h1>
 								<p>Just keep moving only forward and don’t give a shit about what anybody thinks and don’t give a shit about what anybody
-									duskam and don’t give.
+								duskam and don’t give.
 								</p>
 								<a href="about-us-2.html" class="cr-btn cr-btn-lg">
 									<span>Know More</span>
@@ -211,7 +209,7 @@
 									<div class="portfolio-content-inner text-center">
 										<h6>Design</h6>
 										<h3>
-											<a href="single-portfolio.html">Medicine Box</a>
+											<a href="single-portfolio.html">Caris</a>
 										</h3>
 									</div>
 								</div>
@@ -449,80 +447,6 @@
 			</section>
 			<!--//Skills Area  -->
 
-			<!-- Pricing Area -->
-			<section id="pricing-area" class="pricing-area bg-grey section-padding-lg">
-				<div class="container">
-					<div class="row">
-						<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 offset-0">
-							<div class="section-title text-center">
-								<h6>KARBAR PRICING</h6>
-								<h2>It’s about customer value</h2>
-								<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
-									form, by injected humour</p>
-							</div>
-						</div>
-					</div>
-					<div class="row justify-content-center">
-
-						<!-- Single Price box -->
-						<div class="col-lg-4 col-md-6">
-							<article class="cr-pricebox">
-								<h6>Primary</h6>
-								<h4>It’s Totally Free For This Item</h4>
-								<ul>
-									<li>Unlimited Storage</li>
-									<li>Contrary to popular belief</li>
-									<li>Unlimited download</li>
-									<li>500 GB hard disk space</li>
-								</ul>
-								<a href="#" class="cr-btn cr-btn-sm">
-									<span>Buy Now</span>
-								</a>
-							</article>
-						</div>
-						<!--// Single Price box -->
-
-						<!-- Single Price box -->
-						<div class="col-lg-4 col-md-6">
-							<article class="cr-pricebox is-active">
-								<h6>Secondary</h6>
-								<h4>Per Month $500 Only This Item</h4>
-								<ul>
-									<li>Unlimited Storage</li>
-									<li>Contrary to popular belief</li>
-									<li>Unlimited download</li>
-									<li>500 GB hard disk space</li>
-								</ul>
-								<a href="#" class="cr-btn cr-btn-sm">
-									<span>Buy Now</span>
-								</a>
-							</article>
-						</div>
-						<!--// Single Price box -->
-
-						<!-- Single Price box -->
-						<div class="col-lg-4 col-md-6">
-							<article class="cr-pricebox">
-								<h6>Premium</h6>
-								<h4>Per Month $1000 Only This Item</h4>
-								<ul>
-									<li>Unlimited Storage</li>
-									<li>Contrary to popular belief</li>
-									<li>Unlimited download</li>
-									<li>500 GB hard disk space</li>
-								</ul>
-								<a href="#" class="cr-btn cr-btn-sm">
-									<span>Buy Now</span>
-								</a>
-							</article>
-						</div>
-						<!--// Single Price box -->
-
-					</div>
-				</div>
-			</section>
-			<!--// Pricing Area -->
-
 			<!-- Brand Logo Area -->
 			<div id="brand-logo-area" class="brand-logo-area bg-white">
 				<div class="container">
@@ -688,100 +612,151 @@ img.zoom {
       
 
     </div>
-			<!-- Blogs Area -->
-			<section id="blogs-area" class="blogs-area section-padding-lg bg-white">
+
+
+<!-- Service Area 2 -->
+			<section id="service-area" class="service-area section-padding-lg bg-white">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 offset-0">
 							<div class="section-title text-center">
-								<h6>Latest Blogs</h6>
-								<h2>Positive mind positive life</h2>
-								<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
-									form, by injected humour</p>
+								<h6>PT Alam Hijau Selaras </h6>
+								<h2>Our Client</h2>
 							</div>
 						</div>
 					</div>
-					<div class="row justify-content-center">
+					<div class="row justify-content-center services-grid">
 
-						<!-- Single Blog -->
-						<div class="col-lg-4 col-md-6">
-							<article class="blog">
-								<div class="blog-thumb">
-									<a href="blog-details.html">
-										<img src="<?php echo base_url();?>assets/images/blog/layout-1/blog-thumbnail-1.jpg" alt="blog thumb">
-									</a>
+						<!-- Signle Service -->
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="service text-center">
+								<div class="service-icon">
+									<span>
+										<i class="bi bi-finger-print"></i>
+									</span>
+									<span>
+										<i class="bi bi-finger-print"></i>
+									</span>
 								</div>
-								<div class="blog-content">
-									<div class="blog-meta">
-										<span>26 Nov 2017</span>
-										<span>By
-											<a href="blog-fullwidth.html">Momen</a>
-										</span>
-									</div>
-									<h5>
-										<a href="blog-details.html">A conversation about challenge</a>
-									</h5>
-									<p>long established fact that a reader will be distracted by the readable content</p>
-									<a href="blog-details.html" class="cr-readmore">Read More</a>
+								<div class="service-content">
+									<h4>Blue Bird</h4>
 								</div>
-							</article>
+							</div>
 						</div>
-						<!--// Single Blog -->
+						<!--// Signle Service -->
 
-						<!-- Single Blog -->
-						<div class="col-lg-4 col-md-6">
-							<article class="blog">
-								<div class="blog-thumb">
-									<a href="blog-details.html">
-										<img src="<?php echo base_url();?>assets/images/blog/layout-1/blog-thumbnail-2.jpg" alt="blog thumb">
-									</a>
+						<!-- Signle Service -->
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="service text-center">
+								<div class="service-icon">
+									<span>
+										<i class="bi bi-bond"></i>
+									</span>
+									<span>
+										<i class="bi bi-bond"></i>
+									</span>
 								</div>
-								<div class="blog-content">
-									<div class="blog-meta">
-										<span>21 Aug 2017</span>
-										<span>By
-											<a href="blog-fullwidth.html">Admin</a>
-										</span>
-									</div>
-									<h5>
-										<a href="blog-details.html">Some patience for the modern marketer</a>
-									</h5>
-									<p>long established fact that a reader will be distracted by the readable content</p>
-									<a href="blog-details.html" class="cr-readmore">Read More</a>
+								<div class="service-content">
+									<h4>Foodhall</h4>
 								</div>
-							</article>
+							</div>
 						</div>
-						<!--// Single Blog -->
+						<!--// Signle Service -->
 
-						<!-- Single Blog -->
-						<div class="col-lg-4 col-md-6">
-							<article class="blog">
-								<div class="blog-thumb">
-									<a href="blog-details.html">
-										<img src="<?php echo base_url();?>assets/images/blog/layout-1/blog-thumbnail-3.jpg" alt="blog thumb">
-									</a>
+						<!-- Signle Service -->
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="service text-center">
+								<div class="service-icon">
+									<span>
+										<i class="bi bi-globe3"></i>
+									</span>
+									<span>
+										<i class="bi bi-globe3"></i>
+									</span>
 								</div>
-								<div class="blog-content">
-									<div class="blog-meta">
-										<span>13 Oct 2017</span>
-										<span>By
-											<a href="blog-fullwidth.html">Maksud</a>
-										</span>
-									</div>
-									<h5>
-										<a href="blog-details.html">We don’t meeting people by accident</a>
-									</h5>
-									<p>long established fact that a reader will be distracted by the readable content</p>
-									<a href="blog-details.html" class="cr-readmore">Read More</a>
+								<div class="service-content">
+									<h4>Lotte</h4>
 								</div>
-							</article>
+							</div>
 						</div>
-						<!--// Single Blog -->
+						<!--// Signle Service -->
 
+												<!-- Signle Service -->
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="service text-center">
+								<div class="service-icon">
+									<span>
+										<i class="bi bi-finger-print"></i>
+									</span>
+									<span>
+										<i class="bi bi-finger-print"></i>
+									</span>
+								</div>
+								<div class="service-content">
+									<h4>Yogya</h4>
+								</div>
+							</div>
+						</div>
+						<!--// Signle Service -->
+
+						<!-- Signle Service -->
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="service text-center">
+								<div class="service-icon">
+									<span>
+										<i class="bi bi-finger-print"></i>
+									</span>
+									<span>
+										<i class="bi bi-finger-print"></i>
+									</span>
+								</div>
+								<div class="service-content">
+									<h4>Alfamart</h4>
+								</div>
+							</div>
+						</div>
+						<!--// Signle Service -->
+
+						<!--// Signle Service -->
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="service text-center">
+								<div class="service-icon">
+									<span>
+										<i class="bi bi-finger-print"></i>
+									</span>
+									<span>
+										<i class="bi bi-finger-print"></i>
+									</span>
+								</div>
+								<div class="service-content">
+									<h4>Circle-K</h4>
+								</div>
+							</div>
+						</div>
+						<!--// Signle Service -->
+
+						<!--// Signle Service -->
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="service text-center">
+								<div class="service-icon">
+									<span>
+										<i class="bi bi-finger-print"></i>
+									</span>
+									<span>
+										<i class="bi bi-finger-print"></i>
+									</span>
+								</div>
+								<div class="service-content">
+									<h4>Giant</h4>
+								</div>
+							</div>
+						</div>
+						<!--// Signle Service -->
 					</div>
 				</div>
 			</section>
-			<!--// Blogs Area -->
+<!-- Service Area 2 -->			
+
 
 			<!-- Call To Action Area -->
 			<section class="callto-action-area bg-theme">
@@ -792,7 +767,7 @@ img.zoom {
 								<div class="callto-action-inner">
 									<h2>To start your project with us</h2>
 									<a href="#" class="cr-btn cr-btn-white">
-										<span>Purchase Now</span>
+										<span>Contact Us</span>
 									</a>
 								</div>
 							</div>

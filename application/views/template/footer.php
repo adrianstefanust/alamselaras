@@ -11,7 +11,7 @@
                     <!-- Single Widget -->
                     <div class="single-widget footer-widget-about">
                         <a href="index.html">
-                            <img src="<?php echo base_url();?>assets/images/logo/logo-theme-light.png" alt="footer logo">
+                            <img src="<?php echo base_url();?>assets/images/longwayslogowhite.png" alt="footer logo">
                         </a>
                         <p>long established fact that a reader will be distracted by the readable content by the readable content established
                             fact that</p>
@@ -19,15 +19,7 @@
                     <!--// Single Widget -->
 
                     <!-- Single Widget -->
-                    <div class="single-widget widget-newsletter">
-                        <form action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&id=05d85f18ef" method="post" class="newsletter-widget-form">
-                            <input type="email" placeholder="Your Email">
-                            <button type="submit" class="cr-btn cr-btn-sm">
-                                <span>Subscribe</span>
-                            </button>
-                        </form>
-                    </div>
-                    <!--// Single Widget -->
+
                 </div>
 
                 <div class="col-lg-2 col-md-6 col-12">
@@ -119,16 +111,14 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <!-- Single Widget -->
                     <div class="single-widget widget-quick-contact">
-                        <h5 class="footer-widget-title">Quick Contact</h5>
+                        <h5 class="footer-widget-title">Contact</h5>
                         <ul>
                             <li>
                                 <span>Phone</span>
                                 <p>
-                                    <a href="tel:+01234567890123">+01234567890123</a>
+                                    <a href="tel:+01234567890123">+(021) 87950396</a>
                                 </p>
-                                <p>
-                                    <a href="tel:+01234567890124">+01234567890124</a>
-                                </p>
+
                             </li>
                             <li>
                                 <span>Email</span>
@@ -141,7 +131,7 @@
                             </li>
                             <li>
                                 <span>Address</span>
-                                <p>34/5 evergreen road, karbar city New work, United States</p>
+                                <p>Jl. Raya Citaringgul No. 7, Babakan Madang, Sentul, Citaringgul, Babakan Madang, Bogor, West Java 16810</p>
                             </li>
                         </ul>
                     </div>
