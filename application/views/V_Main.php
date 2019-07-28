@@ -628,7 +628,7 @@ img.zoom {
 					<div class="row justify-content-center services-grid">
 
 						<!-- Signle Service -->
-						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
@@ -646,7 +646,7 @@ img.zoom {
 						<!--// Signle Service -->
 
 						<!-- Signle Service -->
-						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
@@ -664,7 +664,7 @@ img.zoom {
 						<!--// Signle Service -->
 
 						<!-- Signle Service -->
-						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
@@ -682,7 +682,7 @@ img.zoom {
 						<!--// Signle Service -->
 
 												<!-- Signle Service -->
-						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>

@@ -3,22 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class C_Main extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	public function index(){
+
+	 function index(){
 		$jsonInsta =  $this->getFeed();
 		$pathGambar = $jsonInsta->graphql->user->edge_owner_to_timeline_media->edges;
 		$arrGambar= array();
@@ -31,16 +17,31 @@ class C_Main extends CI_Controller {
 		$this->load->view('V_Main',$data);
 		$this->load->view('template/footer');
 	}
-	
+	//about us page
+	function aboutUs(){
+
+		$this->load->view('template/header');
+		$this->load->view('template/topbar');
+		$this->load->view('V_aboutUs');
+		$this->load->view('template/footer');
+	}
+
+	//product page
+	 function product(){
+		$this->load->view('template/header');
+		$this->load->view('template/topbar');
+		$this->load->view('V_Product');
+		$this->load->view('template/footer');
+	}
 	//get insta feed without instagram API
-	public function getFeed(){
+	 function getFeed(){
 		$username = 'testing1179';
 		$instaResult = file_get_contents('https://www.instagram.com/'.$username.'/?__a=1');
 		$insta = json_decode($instaResult);
 		return($insta);
 	}
 	//get insta feed using instagram API
-    public function getInstaFeed(){
+     function getInstaFeed(){
 		if(isset($_GET["code"])){
 			if($this->session->flashdata('code')!=$_GET["code"]){
 				
@@ -80,3 +81,4 @@ class C_Main extends CI_Controller {
 	}
 }
 }
+?>

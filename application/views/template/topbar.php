@@ -4,7 +4,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="logo">
-							<a href="index.html">
+							<a href="<?php echo base_url();?>">
 								<img src="<?php echo base_url();?>assets/images/longwayslogowhite.png"  alt="Responsive image" class="img-fluid"  height="300" width="350">
 							</a>
 						</div>
@@ -23,11 +23,11 @@
 										<li class="cr-dropdown">
 											<a href="index.html">Home</a>
 										</li>
-										<li class="cr-dropdown">
-											<a href="V_About.php">ABOUT US</a>
+										<li class="">
+											<a href="<?php echo base_url();?>about_us">ABOUT US</a>
 										</li>
 										<li class="cr-megamenu">
-											<a href="#">Products</a>
+											<a href="<?php echo base_url();?>product">Products</a>
 											<div class="cr-megamenu-wrap">
 												<div class="cr-megamenu-single">
 													<h6>Carries</h6>
