@@ -16,6 +16,9 @@
                         <p>long established fact that a reader will be distracted by the readable content by the readable content established
                             fact that</p>
                     </div>
+                    <div class="about-map">
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=Jl.+Raya+Citaringgul+No.+7,+Babakan+Madang,+Sentul,+Citaringgul,+Babakan+Madang,+Bogor,+West+Java+16810&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" allowfullscreen></iframe>
+            </div>
                     <!--// Single Widget -->
 
                     <!-- Single Widget -->

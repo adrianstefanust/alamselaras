@@ -631,6 +631,10 @@
             </div>
             <!--// Brand Logo Area -->
 
+            <div class="about-map">
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=universitas+katolik+parahyangan&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" allowfullscreen></iframe>
+            </div>
+            
             <!-- Call To Action Area -->
             <section class="callto-action-area bg-theme">
                 <div class="container">
@@ -644,9 +648,12 @@
                                     <b></b></a>
                                 </div>
                             </div>
+                            <!-- <iframe src="https://www.google.com/maps/embed/v1/place?q=universitas+katolik+parahyangan&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" allowfullscreen></iframe> -->
                         </div>
                     </div>
                 </div>
+                <!-- <iframe src="https://www.google.com/maps/embed/v1/place?q=universitas+katolik+parahyangan&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" allowfullscreen></iframe> -->
+
             </section>
             <!--// Call To Action Area -->
 

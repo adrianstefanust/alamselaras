@@ -4532,6 +4532,15 @@ Blocks Styles
     margin-bottom: 20px;
     color: #777777; }
 
+/*.about-map {
+    position: relative;
+    z-index: -1;
+}
+.about-map iframe {
+    width: 100%;
+    height: 100%;
+}*/
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-content-4 {
     padding-right: 30px; } }
