@@ -89,10 +89,10 @@
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/daun.png" class="zoom img-fluid "  alt="">
 									</span>
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/daun.png" class="zoom img-fluid "  alt="">
 									</span>
 								</div>
 								<div class="service-content">
@@ -108,10 +108,10 @@
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
-										<i class="bi bi-bond"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/hands.png" class="zoom img-fluid "  alt="">
 									</span>
 									<span>
-										<i class="bi bi-bond"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/hands.png" class="zoom img-fluid "  alt="">
 									</span>
 								</div>
 								<div class="service-content">
@@ -126,16 +126,16 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 							<div class="service text-center">
 								<div class="service-icon">
-									<span>
-										<i class="bi bi-globe3"></i>
+<span>
+									<img  src="<?php echo base_url();?>assets/images/logo/hrd.png" class="zoom img-fluid "  alt="">
 									</span>
 									<span>
-										<i class="bi bi-globe3"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/hrd.png" class="zoom img-fluid "  alt="">
 									</span>
 								</div>
 								<div class="service-content">
 									<h4>Pembangunan Manusia</h4>
-									<p>Kami membekali setiap orang dalam tim kami dengan keahlian, profesionalitas, dan rasa kekeluargaan. Minimnya pergantian anggota dalam tim kami adalah modal utama membangun perusahaan yang stabil dan selalu bergerak untuk menjadi lebih baik</p>
+									<p>Kami membekali setiap orang dalam tim kami dengan keahlian, profesionalitas, dan rasa kekeluargaan.</p>
 								</div>
 							</div>
 						</div>
@@ -320,12 +320,11 @@
 					<div class="row">
 						<div class="col-lg-12 col-xl-7">
 							<div class="mission-area-content">
-								<h6>OUR MISSION</h6>
-								<h2>The Goal Is Living Life On Your Own Terms</h2>
-								<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration passages
-									of Lorem Ipsum available, but the majority suffered alteration passages of Lorem Ipsum available,</p>
+								<h6>Visi & Misi Kami</h6>
+								<h2>The Goal Is Living a Green Life</h2>
+								<p>Visi kami adalah untuk menjadi perusahaan terdepan yang terus melakukan perubahan atau invoasi untuk produk-produk personal care yang lebih hijau, sesuai dengan nama kami, Alam Hijau Selaras</p>
 								<ul class="cr-liststyle-1">
-									<li>There are many variations of passages majority suffered alteration of Lorem</li>
+									<li>Mengutamakan profesionalisme dan standard yang tinggi dalam berkarya</li>
 									<li>Many variations of passages of majority suffered </li>
 									<li>Variations of passages one of Lorem majority suffered alteration</li>
 								</ul>
@@ -632,10 +631,10 @@ img.zoom {
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/bluebird.png" class="zoom img-fluid "  alt="">
 									</span>
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/bluebird.png" class="zoom img-fluid "  alt="">
 									</span>
 								</div>
 								<div class="service-content">
@@ -650,14 +649,14 @@ img.zoom {
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
-										<i class="bi bi-bond"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/foodhall.png" class="zoom img-fluid "  alt="">
 									</span>
 									<span>
-										<i class="bi bi-bond"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/foodhall.png" class="zoom img-fluid "  alt="">
 									</span>
 								</div>
 								<div class="service-content">
-									<h4>Foodhall</h4>
+									<h4>The Foodhall</h4>
 								</div>
 							</div>
 						</div>
@@ -668,10 +667,10 @@ img.zoom {
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
-										<i class="bi bi-globe3"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/lottemart.png" class="zoom img-fluid "  alt="">
 									</span>
 									<span>
-										<i class="bi bi-globe3"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/lottemart.png" class="zoom img-fluid "  alt="">
 									</span>
 								</div>
 								<div class="service-content">
@@ -686,10 +685,10 @@ img.zoom {
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/yogya.png" class="zoom img-fluid "  alt="">
 									</span>
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/yogya.png" class="zoom img-fluid "  alt="">
 									</span>
 								</div>
 								<div class="service-content">
@@ -704,10 +703,10 @@ img.zoom {
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/alfa.png" class="zoom img-fluid "  alt="">
 									</span>
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/alfa.png" class="zoom img-fluid "  alt="">
 									</span>
 								</div>
 								<div class="service-content">
@@ -722,10 +721,10 @@ img.zoom {
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/circlek.png" class="zoom img-fluid "  alt="">
 									</span>
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/circlek.png" class="zoom img-fluid "  alt="">
 									</span>
 								</div>
 								<div class="service-content">
@@ -740,10 +739,10 @@ img.zoom {
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/giant.png" class="zoom img-fluid "  alt="">
 									</span>
 									<span>
-										<i class="bi bi-finger-print"></i>
+									<img  src="<?php echo base_url();?>assets/images/logo/giant.png" class="zoom img-fluid "  alt="">
 									</span>
 								</div>
 								<div class="service-content">
