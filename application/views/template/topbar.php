@@ -21,7 +21,7 @@
 								<nav id="main-navigation" class="menu slide-menu-inner">
 									<ul>
 										<li class="">
-											<a href="index.html">Home</a>
+											<a href="<?php echo base_url();?>">Home</a>
 										</li>
 										<li class="">
 											<a href="<?php echo base_url();?>about_us">About Us</a>
