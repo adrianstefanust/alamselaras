@@ -29,3 +29,5 @@
 	<script src="<?php echo base_url();?>assets/js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
 <body>
+	<div class="wrapper" id="wrapper">
+	
