@@ -49,11 +49,9 @@
 					<div class="row">
 						<div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-12">
 							<div class="single-banner-content single-banner-content-parallax text-center">
-								<h3>Move On Next</h3>
 								<h1>Alam Hijau Selaras</h1>
-								<p>Just keep moving only forward and don’t give a shit about what anybody thinks and don’t give a shit about what anybody
-								duskam and don’t give.
-								</p>
+								<h3>In House Brand Tissue Production for : </h3>
+								<p>Bluebird, Circle-K, SOGO, Carrefour, Alfamart, Giant, Federal Oil, RS Pantai Indah Kapuk</p>
 								<a href="about-us-2.html" class="cr-btn cr-btn-lg">
 									<span>Know More</span>
 								</a>
