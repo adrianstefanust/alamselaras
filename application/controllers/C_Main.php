@@ -25,7 +25,13 @@ class C_Main extends CI_Controller {
 		$this->load->view('V_aboutUs');
 		$this->load->view('template/footer');
 	}
-
+	//eco-friendly page
+	function ecoFriendly(){
+		$this->load->view('template/header');
+		$this->load->view('template/topbar');
+		$this->load->view('V_EcoFriendly');
+		$this->load->view('template/footer');
+	}
 	//product page
 	 function product(){
 		$this->load->view('template/header');
