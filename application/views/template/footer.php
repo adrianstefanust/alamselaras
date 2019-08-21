@@ -30,86 +30,25 @@
                     <div class="single-widget widget-quick-links">
                         <h5 class="footer-widget-title">QUICK LINK</h5>
                         <ul>
-                            <li>
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="about-us.html">About Us</a>
-                            </li>
-                            <li>
-                                <a href="blog-fullwidth.html">Blog Pages</a>
-                            </li>
-                            <li>
-                                <a href="contact-us.html">Quick Contact</a>
-                            </li>
-                            <li>
-                                <a href="about-us-2.html">Karbar History</a>
-                            </li>
-                            <li>
-                                <a href="services.html">Our Services</a>
-                            </li>
+                        <li class="">
+											<a href="<?php echo base_url();?>">Home</a>
+										</li>
+										<li class="">
+											<a href="<?php echo base_url();?>about_us">About Us</a>
+										</li>
+										<li class="">
+											<a href="<?php echo base_url();?>product">Products</a>
+											
+										</li>
+										<li class="">
+											<a href="<?php echo base_url();?>ecoFriendly">Eco-friendly</a>
+										</li>	
                         </ul>
                     </div>
                     <!--// Single Widget -->
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Single Widget -->
-                    <div class="single-widget widget-latest-blog">
-                        <h5 class="footer-widget-title">Latest Blog</h5>
-                        <ul>
-                            <li>
-                                <a href="blog-details.html" class="widget-latest-blog-thumb">
-                                    <img src="<?php echo base_url();?>assets/images/blog/footer-latest-blog/latest-blog-thumb-1.png" alt="footer latest blog">
-                                </a>
-                                <div class="widget-latest-blog-content">
-                                    <h6>
-                                        <a href="blog-details.html">Some patience for the modern market</a>
-                                    </h6>
-                                    <div class="widget-latest-blog-meta">
-                                        <span>21 Aug 2017</span>
-                                        <span>By
-                                            <a href="blog-fullwidth.html">Admin</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="blog-details.html" class="widget-latest-blog-thumb">
-                                    <img src="<?php echo base_url();?>assets/images/blog/footer-latest-blog/latest-blog-thumb-2.png" alt="footer latest blog">
-                                </a>
-                                <div class="widget-latest-blog-content">
-                                    <h6>
-                                        <a href="blog-details.html">Patience for the modern market</a>
-                                    </h6>
-                                    <div class="widget-latest-blog-meta">
-                                        <span>21 Aug 2017</span>
-                                        <span>By
-                                            <a href="blog-fullwidth.html">Admin</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="blog-details.html" class="widget-latest-blog-thumb">
-                                    <img src="<?php echo base_url();?>assets/images/blog/footer-latest-blog/latest-blog-thumb-3.png" alt="footer latest blog">
-                                </a>
-                                <div class="widget-latest-blog-content">
-                                    <h6>
-                                        <a href="blog-details.html">Some patience the modern market & new Generation</a>
-                                    </h6>
-                                    <div class="widget-latest-blog-meta">
-                                        <span>21 Aug 2017</span>
-                                        <span>By
-                                            <a href="blog-fullwidth.html">Admin</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--// Single Widget -->
-                </div>
+                
 
                 <div class="col-lg-3 col-md-6 col-12">
                     <!-- Single Widget -->

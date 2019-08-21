@@ -26,19 +26,12 @@
 										<li class="">
 											<a href="<?php echo base_url();?>about_us">About Us</a>
 										</li>
-										<li class="cr-megamenu">
+										<li class="">
 											<a href="<?php echo base_url();?>product">Products</a>
-											<div class="cr-megamenu-wrap">
-												<div class="cr-megamenu-single">
-													<h6>Carries</h6>
-												</div>
-												<div class="cr-megamenu-single">
-													<h6>Others</h6>
-												</div>
-											</div>
+											
 										</li>
 										<li class="">
-											<a href="index.html">Ecofriendly</a>
+											<a href="<?php echo base_url();?>ecoFriendly">Eco-friendly</a>
 										</li>	
 										<li class="cr-megamenu">
 											<a href="<?php echo base_url();?>product">License</a>
@@ -66,7 +59,7 @@
 				<div class="container d-block d-lg-none">
 					<div class="mobile-menu clearfix">
 						<a class="mobile-logo" href="index.html">
-							<img src="<?php echo base_url();?>assets/images/logo/logo-theme-light.png" alt="mobile logo">
+							<img src="<?php echo base_url();?>assets/images/longwayslogowhites.png" alt="mobile logo">
 						</a>
 					</div>
 				</div>
