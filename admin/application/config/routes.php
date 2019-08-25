@@ -51,6 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'C_Admin/login';
 $route['prosesLogin'] = 'C_Admin/prosesLogin';
-
+$route['home'] = 'C_Admin/home';
+$route['home/calendar'] = 'C_Admin/calendar';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

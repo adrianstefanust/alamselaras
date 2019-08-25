@@ -111,7 +111,7 @@
             </div>
             <div class="col-lg-4">
                 <p class="footer-copyright">Copyright &copy;
-                    <a href="https://hastech.company/">Themes-Hub</a> 2018. All Right Reserved</p>
+                    PT. Alam Hijau Selaras. 2019. All Right Reserved</p>
             </div>
         </div>
     </div>
