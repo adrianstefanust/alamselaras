@@ -23,9 +23,12 @@
 
   <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
 
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
+
   <!-- Import Template's CSS Files -->
   <link rel="stylesheet" href="<?php echo base_url();?>assets/css/presets.css">
   <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/css/tables/tables.css">    
   <!-- <link rel="stylesheet" href="<?php echo base_url();?>assets/css/widget/blog.css"> -->
   <link rel="stylesheet" href="<?php echo base_url();?>assets/css/responsive.css">
 

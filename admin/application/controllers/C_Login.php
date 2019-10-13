@@ -8,7 +8,6 @@ class C_Login extends CI_Controller{
 		}
 		else{
 			redirect('/');
-			
 		}
 	}
 

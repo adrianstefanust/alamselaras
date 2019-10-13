@@ -18,7 +18,7 @@
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="<?php echo base_url();?>index.html">Images</a>
-              <a class="dropdown-item" href="<?php echo base_url();?>index-02.html">Text</a>
+              <a class="dropdown-item" href="<?php echo base_url();?>content-text">Text</a>
             </div>
           </li>
           
