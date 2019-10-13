@@ -50,8 +50,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'C_Admin/login';
-$route['prosesLogin'] = 'C_Admin/prosesLogin';
+$route['prosesLogin'] = 'C_Login/prosesLogin';
 $route['home'] = 'C_Admin/home';
+$route['logout'] = 'C_Login/logout';
 $route['home/calendar'] = 'C_Admin/calendar';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

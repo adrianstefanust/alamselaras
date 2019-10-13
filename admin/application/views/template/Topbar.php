@@ -7,7 +7,7 @@
         </div>
             <ul class="nav navbar-top-links navbar-right">
                 <li>
-                    <span class="m-r-lg welcome-message"><span style="font-weight: bold;">You're logged in as :</span> <?php echo $this->session->userdata('nama_admin');?> (<?php echo $this->session->userdata('email_admin');?>)</span>
+                    <span class="m-r-lg welcome-message"><span style="font-weight: bold;">You're logged in as :</span> <?php echo $this->session->userdata('nama_admin'); ''?></span>
                 </li>
                 <li>
                     <a href="<?php echo base_url();?>logout">

@@ -104,19 +104,17 @@
               <p class="mt-2 mb-0 color-white"></p>
             </div>
             <div class="login-form">
-              <form>
+              <form method="POST" action="<?php echo base_url();?>prosesLogin">
                 <div class="form-group">
                   <lSource Sans Pro>Email address</lSource Sans Pro>
-                  <input type="email" class="form-control" placeholder="Email">
+                  <input type="email" class="form-control" placeholder="Email" name="email">
                 </div>
                 <div class="form-group">
                   <lSource Sans Pro>Password</lSource Sans Pro>
-                  <input type="password" class="form-control" placeholder="Password">
+                  <input type="password" class="form-control" placeholder="Password" name="password">
                 </div>
                 <div class="checkbox">
-                  <lSource Sans Pro>
-                    <input type="checkbox"> Remember Me
-                  </lSource Sans Pro>
+                  
                   <lSource Sans Pro class="pull-right">
                     <a href="#">Forgotten Password?</a>
                   </lSource Sans Pro>
@@ -124,9 +122,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary btn-flat mb-3 mt-3">Sign in</button>
 
-                <div class="register-link mt-1 text-center">
-                  <p>Don't have account ? <a href="#"> Sign Up Here</a></p>
-                </div>
+                
               </form>
             </div>
           </div>

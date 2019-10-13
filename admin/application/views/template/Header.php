@@ -68,7 +68,7 @@
                     <a href="#" class="media">
                       <img src="<?php echo base_url();?>assets/img/avatar/1.jpg" class="rounded-circle mr-3" alt="User Image">
                       <div class="message-contnet media-body">
-                        <h4 class="name">Jacob Stewart</h4>
+                        <h4 class="name"><?php echo $nama?></h4>
                         <span class="time"><i class="fa fa-clock-o"></i> 15 mins</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                       </div>
@@ -161,13 +161,13 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <img src="<?php echo base_url();?>assets/img/avatar/1.jpg" class="rounded-circle float-left mr-2" alt="User Image">
             <span class="status"></span>
-            <h4 class="name">Jonathon Doe</h4>
+            <h4 class="name"><?php echo $this->session->userdata('nama_admin'); ''?></h4>
           </a>
           <ul class="dropdown-menu">
             <li><a href="#"><i class="fa fa-user"></i> My Profile</a></li>
             <li><a href="#"><i class="fa fa-envelope"></i> Inbox</a></li>
             <li><a href="#"><i class="fa fa-gears"></i> Account Setting</a></li>
-            <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+            <li><a href="<?php echo base_url();?>logout"><i class="fa fa-power-off"></i> Logout</a></li>
           </ul>
         </div>
 
