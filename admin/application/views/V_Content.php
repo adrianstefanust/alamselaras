@@ -4,7 +4,7 @@
       <div class="col-12">
         <div class="section-content">
           <div class="content-head">
-            <h4 class="content-title">Data Table</h4><!-- /.content-title -->
+            <h4 class="content-title">Content Text</h4><!-- /.content-title -->
             <div class="corner-content float-right">
               <button class="content-refresh" data-toggle="tooltip" data-placement="top" title="Reload"><i class="fa fa-refresh"></i></button>
               <button class="content-collapse" data-toggle="tooltip" data-placement="top" title="Collapse"><i class="fa fa-angle-down"></i></button>
