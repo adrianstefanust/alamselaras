@@ -2,14 +2,14 @@
 
 			<div class="container d-none d-lg-block" >
 				<div class="row align-items-center">
-					<div class="col-lg-6">
+					<div class="col-lg-5">
 						<div class="logo">
 							<a href="<?php echo base_url();?>">
-								<img src="<?php echo base_url();?>assets/images/longwayslogowhite.png"  alt="Responsive image" class="img-fluid"  height="300" width="350">
+								<img src="<?php echo base_url();?>assets/images/longwayslogowhite.png"  alt="Responsive image" class="img-fluid"   width="100%">
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 offset-lg-1">
 						<div class="header-rightside text-right">
 							<!-- Slide Menu -->
 							<div class="slide-menu-wrapper">
@@ -34,13 +34,13 @@
 											<a href="<?php echo base_url();?>ecoFriendly">Eco-friendly</a>
 										</li>	
 										<li class="cr-megamenu">
-											<a href="<?php echo base_url();?>product">License</a>
+											<a href="<?php echo base_url();?>license">License</a>
 											<div class="cr-megamenu-wrap">
 												<div class="cr-megamenu-single">
-													<h6>Disney</h6>
+													<a href="<?php echo base_url(); ?>license/disneys"><h6>Disney</h6></a>
 												</div>
 												<div class="cr-megamenu-single">
-													<h6>Others</h6>
+													<a href="<?php echo base_url(); ?>license/others"><h6>Others</h6></a>
 												</div>
 											</div>
 										</li>
@@ -55,12 +55,15 @@
 			</div>
 
 			<!-- Mobile Menu -->
-			<div class="mobile-menu-wrapper">
-				<div class="container d-block d-lg-none">
-					<div class="mobile-menu clearfix">
-						<a class="mobile-logo" href="index.html">
-							<img src="<?php echo base_url();?>assets/images/longwayslogowhites.png" alt="mobile logo">
-						</a>
+			<div class="mobile-menu-wrapper row ">
+				<div class="container d-block d-lg-none ">
+					<div class="mobile-menu clearfix ">
+						<div class="col-xs-6">
+
+							<a class="mobile-logo" href="<?php echo base_url(); ?>">
+								<img src="<?php echo base_url();?>assets/images/longwayslogowhites.png" alt="mobile logo" class="img-fluid" >
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

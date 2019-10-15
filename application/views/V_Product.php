@@ -1,6 +1,6 @@
 
         <!-- Breacrumb Area -->
-        <div class="breadcrumb-area" data-black-overlay="7">
+        <div class="breadcrumb-area" data-black-overlay="7" id="bg-product">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">

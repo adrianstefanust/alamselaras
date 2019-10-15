@@ -3,11 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Hi5Dash - HTML5 Admin Template By Jewel Theme</title>
-  <meta name="description" content="Hi5Dash - HTML5 Admin Template By Jewel Theme">
+  <title>Admin Page</title>
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  
+  <link rel="shortcut icon" href="<?php echo base_url();?>../assets/images/favicon.ico">
+  <link rel="apple-touch-icon" href="<?php echo base_url();?>../assets/images/icon.png">
 
   <!-- Import Template Icons CSS Files -->
   <link rel="stylesheet" href="<?php echo base_url();?>assets/css/font-awesome.min.css">
