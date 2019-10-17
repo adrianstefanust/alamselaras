@@ -48,6 +48,11 @@ class C_Main extends CI_Controller {
 
 		$this->load->model('ContentImage');
 		$data['bg_product'] = $this->ContentImage->get('bg_product');
+		$data['facial'] = $this->ContentImage->get('facial');
+		$data['pop_up'] = $this->ContentImage->get('pop_up');
+		$data['napkin'] = $this->ContentImage->get('napkin');
+		$data['refill'] = $this->ContentImage->get('refill');
+		$data['roll'] = $this->ContentImage->get('roll');
 		$this->load->view('template/header');
 		$this->load->view('template/topbar');
 		$this->load->view('V_Product',$data);
