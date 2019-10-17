@@ -27,7 +27,7 @@ class C_ContentImage extends CI_Controller {
 			$config['allowed_types'] = 'jpg|png';
 			$config['max_width']  = 0;
 			$config['max_height']  = 0;
-			$config['max_size']  = 5120;
+			$config['max_size']  = 2560;
 			$config['detect_mime']        	= 'TRUE';
 
 
