@@ -30,17 +30,9 @@
                                         
                                         </li>
 										
-                                        <li class="cr-dropdown last-element">
+                                        <li >
 										<a href="<?php echo base_url();?>license">License</a>
-                                            <ul>
-                                                <li>
-												<a href="<?php echo base_url(); ?>license/disneys"><h6>Disney</h6></a>
-                                                </li>
-                                                <li>
-												<a href="<?php echo base_url(); ?>license/others"><h6>Others</h6></a>
-                                                </li>
-                                               
-                                            </ul>
+                                            
                                         </li>
                                 </ul>
                             </nav>

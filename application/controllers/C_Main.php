@@ -58,6 +58,18 @@ class C_Main extends CI_Controller {
 		$this->load->view('V_Product',$data);
 		$this->load->view('template/footer');
 	}
+	//license page
+	function license(){
+
+		$this->load->model('ContentImage');
+		$data['bg_product'] = $this->ContentImage->get('bg_product');
+		$data['disney'] = $this->ContentImage->get('disney');
+		$data['others'] = $this->ContentImage->get('others');
+		$this->load->view('template/header');
+		$this->load->view('template/topbar');
+		$this->load->view('V_License',$data);
+		$this->load->view('template/footer');
+	}
 	//get insta feed without instagram API
 	function getFeed(){
 		$username = 'testing1179';

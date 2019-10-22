@@ -54,6 +54,7 @@ $route['404_override'] = '';
 $route['about_us'] ='C_Main/aboutUs';
 $route['product'] ='C_Main/product';
 $route['ecoFriendly'] ='C_Main/ecoFriendly';
+$route['license'] ='C_Main/license';
 $route['translate_uri_dashes'] = FALSE;
 
 
