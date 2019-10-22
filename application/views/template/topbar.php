@@ -58,10 +58,9 @@
 			<div class="mobile-menu-wrapper row ">
 				<div class="container d-block d-lg-none ">
 					<div class="mobile-menu clearfix ">
-						<div class="col-xs-6">
-
-							<a class="mobile-logo" href="<?php echo base_url(); ?>">
-								<img src="<?php echo base_url();?>assets/images/longwayslogowhites.png" alt="mobile logo" class="img-fluid" >
+						<div class="row">
+							<a class="mobile-logo">
+								<img src="<?php echo base_url();?>assets/images/longwayslogowhites.png" alt="mobile logo" class="img-fluid" width="10%">
 							</a>
 						</div>
 					</div>
