@@ -74,7 +74,7 @@ menjaga kebersihan dan kesehatan seluruh keluarga Anda.</h3>
                         </div>
                         <div class="col-xl-5 col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-12 offset-0 order-1 order-lg-2">
                             <div class="about-thumb about-thumb-3 mt-5 mb-5">
-                                <img class="wow slideInRight img-fluid" data-wow-duration="2s" src="<?php echo base_url();?>assets/images/<?php echo $about_us_3[0]['page_image_path']; ?>" alt="skill area thumb" style="visibility: visible; animation-duration: 2s; animation-name: slideInRight;">
+                                <img class="wow slideInRight " data-wow-duration="2s" src="<?php echo base_url();?>assets/images/<?php echo $about_us_3[0]['page_image_path']; ?>" alt="skill area thumb" style="visibility: visible; animation-duration: 2s; animation-name: slideInRight;">
                             </div>
                         </div>
                     </div>
