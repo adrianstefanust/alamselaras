@@ -1,13 +1,7 @@
 <div class="content-wrapper container-fluid">
 	<aside class="left-panel">
-		<div class="user-card background-bg" data-image-src="<?php echo base_url();?>assets/img/bg5.jpg">
-			<a href="#">
-				<div class="avatar mr-3 float-left"><img class="rounded-circle" src="<?php echo base_url();?>assets/img/avatar/4.jpg" alt="Avatar"></div><!-- /.avatar -->
-				<div class="details">
-					<h4 class="name">Bobby Payne</h4><!-- /.name -->
-					<span class="designation">Designer</span><!-- /.designation -->
-				</div><!-- /.details -->
-			</a>
+		<div class="user-card background-bg" >
+			
 		</div>
 		<nav class="navbar">
 			<ul class="navbar-nav">
@@ -21,14 +15,6 @@
 						<a class="dropdown-item" href="<?php echo base_url();?>content-text">Text</a>
 					</div>
 				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="<?php echo base_url();?>home/calendar">
-						<i class="fa fa-calendar-o"></i> <span class="menu-title">Calendar</span>
-					</a>
-				</li>
-
-				<li class="nav-item header"><span class="menu-title">Extras</span></li>
 
 			</ul>
 		</nav>

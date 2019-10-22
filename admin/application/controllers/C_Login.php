@@ -36,7 +36,7 @@ class C_Login extends CI_Controller{
 
 				$this->session->set_userdata($userdata);
 				print_r($this->session->all_userdata());
-				redirect('/home');
+				redirect('/content-text');
 			}else{
 				$this->session->set_flashdata('error', 'password/email anda tidak terdaftar');
 				redirect('/','refresh');

@@ -51,7 +51,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'C_Admin/login';
 $route['prosesLogin'] = 'C_Login/prosesLogin';
-$route['home'] = 'C_Admin/home';
 $route['content-text'] = 'C_ContentText/loadTable';
 $route['content-image'] = 'C_ContentImage/index';
 $route['content-image/edit'] = 'C_ContentImage/edit';
@@ -60,6 +59,5 @@ $route['license'] = 'C_License/';
 $route['license/disney'] = 'C_License/disney';
 $route['license/others'] = 'C_License/others';
 $route['logout'] = 'C_Login/logout';
-$route['home/calendar'] = 'C_Admin/calendar';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
