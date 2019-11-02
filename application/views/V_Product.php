@@ -1,6 +1,6 @@
 
         <!-- Breacrumb Area -->
-        <div class="breadcrumb-area" data-black-overlay="7">
+        <div class="breadcrumb-area" data-black-overlay="7" id="bg-product">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
@@ -37,69 +37,18 @@
                     <div class="row justify-content-center row justify-content-center service-slider-active cr-slider-dots-1">
 
                         <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/ALL CK.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/ALFA Tissue.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                   
+                         <?php foreach ($facial as $key): ?>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service service-style-5">
+                                    <div class="service-image">
+                                        <img src="<?php echo base_url();?>assets/images/<?php echo $key['page_image_path']; ?>" alt="Service Thumb" style="height:300px">
+                                    </div>
+                                    <div class="service-content">
+                                    
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Caris Disney.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                   
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Animal CK.JPG" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                  
-                                   </div>
-                            </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Box Blue Bird.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                 
-                                  
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach ?>
                         <!--// Signle Service -->
 
                        
@@ -128,57 +77,18 @@ Sama dengan konsep facial tissue, pop-up tissue memiliki sistem tissue tarik lem
                     <div class="row justify-content-center row justify-content-center service-slider-active cr-slider-dots-1">
 
                         <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Box Natal.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                   
-                                    <!-- <p>There are many variations of passages Lorem Ipsum, but the majority variations of passages
-                                        of Lorem Ipsum
-                                    </p> -->
-                                    <!-- <a href="service-details.html" class="cr-readmore2">Read More</a> -->
+                         <?php foreach ($pop_up as $key): ?>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service service-style-5">
+                                    <div class="service-image">
+                                        <img src="<?php echo base_url();?>assets/images/<?php echo $key['page_image_path']; ?>" alt="Service Thumb" style="height:300px">
+                                    </div>
+                                    <div class="service-content">
+                                    
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Pop Up Polos 180gr.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                               
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Mini Refill 200's Blue.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                   
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Pop Up 600gr.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                              
-                            </div>
-                        </div>
+                        <?php endforeach ?>
                         <!--// Signle Service -->
 
                        
@@ -208,57 +118,18 @@ Sama dengan konsep facial tissue, pop-up tissue memiliki sistem tissue tarik lem
                     <div class="row justify-content-center row justify-content-center service-slider-active cr-slider-dots-1">
 
                         <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Single Wrap.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                   
-                                    <!-- <p>There are many variations of passages Lorem Ipsum, but the majority variations of passages
-                                        of Lorem Ipsum
-                                    </p> -->
-                                    <!-- <a href="service-details.html" class="cr-readmore2">Read More</a> -->
+                       <?php foreach ($roll as $key): ?>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service service-style-5">
+                                    <div class="service-image">
+                                        <img src="<?php echo base_url();?>assets/images/<?php echo $key['page_image_path']; ?>" alt="Service Thumb" style="height:300px">
+                                    </div>
+                                    <div class="service-content">
+                                    
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Single Wrap CK.JPG" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                               
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Foodhall.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                   
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/CAris Toilet.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                              
-                            </div>
-                        </div>
+                        <?php endforeach ?>
                         <!--// Signle Service -->
 
                        
@@ -289,46 +160,18 @@ Sama dengan konsep facial tissue, pop-up tissue memiliki sistem tissue tarik lem
                     <div class="row justify-content-center row justify-content-center service-slider-active cr-slider-dots-1">
 
                         <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Tissue Makan CK 50's.JPG" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                   
-                                    <!-- <p>There are many variations of passages Lorem Ipsum, but the majority variations of passages
-                                        of Lorem Ipsum
-                                    </p> -->
-                                    <!-- <a href="service-details.html" class="cr-readmore2">Read More</a> -->
+                        <?php foreach ($napkin as $key): ?>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service service-style-5">
+                                    <div class="service-image">
+                                        <img src="<?php echo base_url();?>assets/images/<?php echo $key['page_image_path']; ?>" alt="Service Thumb" style="height:300px">
+                                    </div>
+                                    <div class="service-content">
+                                    
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/cocktail.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                               
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Luncheon 50's.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                   
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach ?>
                         <!--// Signle Service -->
 
                         
@@ -360,46 +203,18 @@ Sama dengan konsep facial tissue, pop-up tissue memiliki sistem tissue tarik lem
                     <div class="row justify-content-center row justify-content-center service-slider-active cr-slider-dots-1">
 
                         <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Dispenser JRT.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                   
-                                    <!-- <p>There are many variations of passages Lorem Ipsum, but the majority variations of passages
-                                        of Lorem Ipsum
-                                    </p> -->
-                                    <!-- <a href="service-details.html" class="cr-readmore2">Read More</a> -->
+                         <?php foreach ($refill as $key): ?>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service service-style-5">
+                                    <div class="service-image">
+                                        <img src="<?php echo base_url();?>assets/images/<?php echo $key['page_image_path']; ?>" alt="Service Thumb" style="height:300px">
+                                    </div>
+                                    <div class="service-content">
+                                    
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/Dispenser M-Fold sedang.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                               
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Signle Service -->
-
-                        <!-- Signle Service -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="service service-style-5">
-                                <div class="service-image">
-                                    <img src="<?php echo base_url();?>assets/images/JRT.jpg" alt="Service Thumb" style="height:300px">
-                                </div>
-                                <div class="service-content">
-                                   
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach ?>
                         <!--// Signle Service -->
 
                         

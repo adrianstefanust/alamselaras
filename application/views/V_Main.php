@@ -50,8 +50,10 @@
 						<div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-12">
 							<div class="single-banner-content single-banner-content-parallax text-center">
 								<h1>Alam Hijau Selaras</h1>
+								<br>
+								<br>
 								<h3>In House Brand Tissue Production for : </h3>
-								<p>Bluebird, Circle-K, SOGO, Carrefour, Alfamart, Giant, Federal Oil, RS Pantai Indah Kapuk</p>
+								<p>Bluebird, Circle-K, SOGO, YOA, LOTTE, Alfamart, Giant, Federal Oil, RS Pantai Indah Kapuk</p>
 								<a href="about-us-2.html" class="cr-btn cr-btn-lg">
 									<span>Know More</span>
 								</a>
@@ -166,7 +168,7 @@
 					</div>
 				</div>
 				<div class="mission-area-thumb">
-					<img class="wow fadeInRight" src="<?php echo base_url();?>assets/images/image023.JPG" alt="mission area thumb">
+					<img class="wow fadeInRight" src="<?php echo base_url();?>assets/images/<?php echo $visi_misi[0]['page_image_path']; ?>" alt="mission area thumb">
 				</div>
 			</section>
 			<!--// Mission Area -->

@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.1
+-- version 4.8.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 13, 2019 at 06:36 PM
--- Server version: 10.1.33-MariaDB
--- PHP Version: 7.2.6
+-- Generation Time: Oct 17, 2019 at 07:46 AM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 7.3.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -83,8 +83,26 @@ INSERT INTO `page_content` (`page_content_id`, `page_name`, `page_text`, `page_i
 CREATE TABLE `page_image` (
   `page_image_id` int(11) NOT NULL,
   `page_name` varchar(20) NOT NULL,
-  `page_image_path` int(100) NOT NULL
+  `page_image_path` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `page_image`
+--
+
+INSERT INTO `page_image` (`page_image_id`, `page_name`, `page_image_path`) VALUES
+(1, 'home_background', 'bg/LOGO_1571124889.jpg'),
+(2, 'home_background', 'bg/LOGO_1571125900.jpg'),
+(3, 'home_background', 'bg/LOGO_1571127417.jpg'),
+(4, 'breadcrumbarea', 'bg/LOGO_1571132985.jpg'),
+(5, 'about_us_1', 'bg/LOGO_1571157847.JPG'),
+(6, 'about_us_2', 'bg/LOGO_1571157864.JPG'),
+(7, 'about_us_3', 'bg/LOGO_1571157831.JPG'),
+(8, 'facial', ''),
+(9, 'bg_product', 'bg/LOGO_1571158948.jpg'),
+(10, 'bg_about_us', 'bg/LOGO_1571158975.jpg'),
+(11, 'visi_misi', 'bg/LOGO_1571158184.JPG'),
+(12, 'bg_eco', 'bg/LOGO_1571159055.jpg');
 
 -- --------------------------------------------------------
 
@@ -146,7 +164,7 @@ ALTER TABLE `page_content`
 -- AUTO_INCREMENT for table `page_image`
 --
 ALTER TABLE `page_image`
-  MODIFY `page_image_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `page_image_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `user`

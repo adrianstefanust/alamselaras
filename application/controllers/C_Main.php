@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class C_Main extends CI_Controller {
 
 
-	 function index(){
+	function index(){
 		$jsonInsta =  $this->getFeed();
 		$pathGambar = $jsonInsta->graphql->user->edge_owner_to_timeline_media->edges;
 		$arrGambar= array();
@@ -12,6 +12,9 @@ class C_Main extends CI_Controller {
 			$arrGambar[] =$value->node->thumbnail_resources[2]->src;
 		}
 		$data['gambar']=$arrGambar;
+		$this->load->model('ContentImage');
+		$data['home_background'] = $this->ContentImage->get('home_background');
+		$data['visi_misi'] = $this->ContentImage->get('visi_misi');
 		$this->load->view('template/header');
 		$this->load->view('template/topbar');
 		$this->load->view('V_Main',$data);
@@ -19,39 +22,67 @@ class C_Main extends CI_Controller {
 	}
 	//about us page
 	function aboutUs(){
+		$this->load->model('ContentImage');
+		$data['bg_about_us'] = $this->ContentImage->get('bg_about_us');
+		$data['about_us_1'] = $this->ContentImage->get('about_us_1');
+		$data['about_us_2'] = $this->ContentImage->get('about_us_2');
+		$data['about_us_3'] = $this->ContentImage->get('about_us_3');
 
 		$this->load->view('template/header');
 		$this->load->view('template/topbar');
-		$this->load->view('V_aboutUs');
+		$this->load->view('V_aboutUs', $data);
 		$this->load->view('template/footer');
 	}
 	//eco-friendly page
 	function ecoFriendly(){
+
+		$this->load->model('ContentImage');
+		$data['bg_eco'] = $this->ContentImage->get('bg_eco');
 		$this->load->view('template/header');
 		$this->load->view('template/topbar');
-		$this->load->view('V_EcoFriendly');
+		$this->load->view('V_EcoFriendly',$data);
 		$this->load->view('template/footer');
 	}
 	//product page
-	 function product(){
+	function product(){
+
+		$this->load->model('ContentImage');
+		$data['bg_product'] = $this->ContentImage->get('bg_product');
+		$data['facial'] = $this->ContentImage->get('facial');
+		$data['pop_up'] = $this->ContentImage->get('pop_up');
+		$data['napkin'] = $this->ContentImage->get('napkin');
+		$data['refill'] = $this->ContentImage->get('refill');
+		$data['roll'] = $this->ContentImage->get('roll');
 		$this->load->view('template/header');
 		$this->load->view('template/topbar');
-		$this->load->view('V_Product');
+		$this->load->view('V_Product',$data);
+		$this->load->view('template/footer');
+	}
+	//license page
+	function license(){
+
+		$this->load->model('ContentImage');
+		$data['bg_product'] = $this->ContentImage->get('bg_product');
+		$data['disney'] = $this->ContentImage->get('disney');
+		$data['others'] = $this->ContentImage->get('others');
+		$this->load->view('template/header');
+		$this->load->view('template/topbar');
+		$this->load->view('V_License',$data);
 		$this->load->view('template/footer');
 	}
 	//get insta feed without instagram API
-	 function getFeed(){
+	function getFeed(){
 		$username = 'testing1179';
 		$instaResult = file_get_contents('https://www.instagram.com/'.$username.'/?__a=1');
 		$insta = json_decode($instaResult);
 		return($insta);
 	}
 	//get insta feed using instagram API
-     function getInstaFeed(){
+	function getInstaFeed(){
 		if(isset($_GET["code"])){
 			if($this->session->flashdata('code')!=$_GET["code"]){
 				
-			$this->session->set_flashdata('code', $_GET["code"]);
+				$this->session->set_flashdata('code', $_GET["code"]);
 				$instagram_parameter = array(
 					"client_id" => '8344216527b742a1bdac2e8a3b2d5fc0',
 					"client_secret" => '13eda11ac665492b8406eccaf247abdd',
@@ -83,8 +114,8 @@ class C_Main extends CI_Controller {
 			}
 			
 		}else{
-		header('Location:'.'https://api.instagram.com/oauth/authorize/?client_id=8344216527b742a1bdac2e8a3b2d5fc0&redirect_uri=http://www.ahs.co.id/C_Main/test&response_type=code&scope=public_content');
+			header('Location:'.'https://api.instagram.com/oauth/authorize/?client_id=8344216527b742a1bdac2e8a3b2d5fc0&redirect_uri=http://www.ahs.co.id/C_Main/test&response_type=code&scope=public_content');
+		}
 	}
-}
 }
 ?>
