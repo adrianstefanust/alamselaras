@@ -1,4 +1,4 @@
-
+<!-- asdf -->
 	<!-- Add your site or application content here -->
 	 
 
@@ -18,8 +18,12 @@
 					<div class="row">
 						<div class="col-xl-7 col-lg-9 col-12">
 							<div class="single-banner-content single-banner-content-parallax">
-								<h4>Selamat datang di era baru perindustrian</h4>
-								<h5>“Tetap hijau, tetap selaras, tetap membumi”</h5>
+								<h4>
+									<?php echo $home_content[0]['page_text'];  ?>
+								</h4>
+								<h5>
+									<?php echo $home_content[1]['page_text'];  ?>
+								</h5>
 							</div>
 						</div>
 					</div>
@@ -33,9 +37,15 @@
 					<div class="row">
 						<div class="col-xl-7 col-lg-9 col-12">
 							<div class="single-banner-content single-banner-content-parallax">
-								<h4>Bantu kami untuk menjaga bumi tetap hijau</h4>
-								<h5>“Yang diperlukan agar dunia selaras hanyalah bila makhluk mengikuti hukum alam” </h5>
-								<h6>– Paulo Coelho-</h6>
+								<h4>
+									<?php echo $home_content[2]['page_text'];  ?>
+								</h4>
+								<h5>
+									<?php echo $home_content[3]['page_text'];  ?>
+								</h5>	
+								<h6>
+									<?php echo $home_content[4]['page_text'];  ?>
+								</h6>
 							</div>
 						</div>
 					</div>
@@ -49,11 +59,15 @@
 					<div class="row">
 						<div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-12">
 							<div class="single-banner-content single-banner-content-parallax text-center">
-								<h1>Alam Hijau Selaras</h1>
+								<h1>
+									<?php echo $home_content[5]['page_text'];  ?>
+								</h1>
 								<br>
 								<br>
-								<h3>In House Brand Tissue Production for : </h3>
-								<p>Bluebird, Circle-K, SOGO, YOA, LOTTE, Alfamart, Giant, Federal Oil, RS Pantai Indah Kapuk</p>
+								<h3><?php echo $home_content[6]['page_text'];  ?></h3>
+								<p>
+									<?php echo $home_content[7]['page_text'];  ?>
+								</p>
 								<a href="about-us-2.html" class="cr-btn cr-btn-lg">
 									<span>Know More</span>
 								</a>
@@ -76,9 +90,15 @@
 					<div class="row">
 						<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 offset-0">
 							<div class="section-title text-center">
-								<h6>PT Alam Hijau Selaras </h6>
-								<h2>Selaras dengan alam</h2>
-								<p>Industri kami sedang bergerak menuju Industri Hijau dimana kami meminimalisir seluruh dampak negatif dari pembangunan dan kegiatan industri. Kami juga mengedepankan industri Padat Karya dengan mengajarkan keterampilan bagi sumber daya manusia yang kami bina.</p>
+								<h6>
+									<?php echo $home_content[8]['page_text'];  ?>
+								</h6>
+								<h2>
+									<?php echo $home_content[9]['page_text'];  ?>
+								</h2>
+								<p>
+									<?php echo $home_content[10]['page_text'];  ?>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -96,8 +116,12 @@
 									</span>
 								</div>
 								<div class="service-content">
-									<h4>Hijau</h4>
-									<p>Bergerak untuk bumi yang tetap hijau</p>
+									<h4>
+										<?php echo $home_content[11]['page_text'];  ?>
+									</h4>
+									<p>
+										<?php echo $home_content[12]['page_text'];  ?>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -115,8 +139,12 @@
 									</span>
 								</div>
 								<div class="service-content">
-									<h4>Kualitas Bersaing</h4>
-									<p>Salah satu produk terbaik di kelasnya, hanya untuk anda</p>
+									<h4>
+										<?php echo $home_content[13]['page_text'];  ?>
+									</h4>
+									<p>
+										<?php echo $home_content[14]['page_text'];  ?>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -134,8 +162,12 @@
 									</span>
 								</div>
 								<div class="service-content">
-									<h4>Pembangunan Manusia</h4>
-									<p>Kami membekali setiap orang dalam tim kami dengan keahlian, profesionalitas, dan rasa kekeluargaan.</p>
+									<h4>
+										<?php echo $home_content[15]['page_text'];  ?>
+									</h4>
+									<p>
+										<?php echo $home_content[16]['page_text'];  ?>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -154,13 +186,19 @@
 					<div class="row">
 						<div class="col-lg-12 col-xl-7">
 							<div class="mission-area-content">
-								<h6>Visi & Misi Kami</h6>
-								<h2>The Goal Is Living a Green Life</h2>
-								<p>Visi kami adalah untuk menjadi perusahaan terdepan yang terus melakukan perubahan atau invoasi untuk produk-produk personal care yang lebih hijau, sesuai dengan nama kami, Alam Hijau Selaras</p>
+								<h6>
+									<?php echo $home_content[17]['page_text'];  ?>
+								</h6>
+								<h2>
+									<?php echo $home_content[18]['page_text'];  ?>
+								</h2>
+								<p>
+									<?php echo $home_content[19]['page_text'];  ?>
+								</p>
 								<ul class="cr-liststyle-1">
-									<li>Mengutamakan profesionalisme dan standard yang tinggi dalam berkarya</li>
-									<li>Many variations of passages of majority suffered </li>
-									<li>Variations of passages one of Lorem majority suffered alteration</li>
+									<li><?php echo $home_content[20]['page_text'];  ?></li>
+									<li><?php echo $home_content[21]['page_text'];  ?></li>
+									<li><?php echo $home_content[22]['page_text'];  ?></li>
 								</ul>
 							
 							</div>

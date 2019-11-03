@@ -8,7 +8,7 @@ class C_Admin extends CI_Controller{
 	        $this->load->view('V_Login');
 	    }
 	    else{
-	        redirect('/home');
+	        redirect('/content-text');
 	        
 	    }
 	}

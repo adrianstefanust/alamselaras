@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.8.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 17, 2019 at 07:46 AM
--- Server version: 10.1.37-MariaDB
--- PHP Version: 7.3.0
+-- Generation Time: Nov 03, 2019 at 05:13 AM
+-- Server version: 10.1.33-MariaDB
+-- PHP Version: 7.2.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -60,19 +60,57 @@ CREATE TABLE `page_content` (
 --
 
 INSERT INTO `page_content` (`page_content_id`, `page_name`, `page_text`, `page_info_div`) VALUES
-(1, 'home', 'Industri kami sedang bergerak menuju Industri Hijau dimana kami meminimalisir seluruh dampak negatif dari pembangunan dan kegiatan industri. Kami juga mengedepankan industri Padat Karya dengan mengajarkan keterampilan bagi sumber daya manusia yang kami bina.', 'detail moto'),
-(2, 'home', 'Hijau', 'judul moto 1'),
-(3, 'home', 'Selaras dengan alam', 'main moto'),
-(4, 'home', 'Bergerak untuk bumi yang tetap hijau', 'isi moto 1'),
-(5, 'home', 'Kualitas Bersaing', 'judul moto 2'),
-(6, 'home', 'Salah satu produk terbaik di kelasnya, hanya untuk anda', 'isi moto 2'),
-(7, 'home', 'Pembangunan Manusia', 'judul moto 3'),
-(8, 'home', 'Kami membekali setiap orang dalam tim kami dengan keahlian, profesionalitas, dan rasa kekeluargaan.', 'isi moto 3'),
-(9, 'home', 'The Goal Is Living a Green Life', 'judul visi misi'),
-(10, 'home', 'Visi kami adalah untuk menjadi perusahaan terdepan yang terus melakukan perubahan atau invoasi untuk produk-produk personal care yang lebih hijau, sesuai dengan nama kami, Alam Hijau Selaras', 'isi visi misi'),
-(11, 'home', 'Mengutamakan profesionalisme dan standard yang tinggi dalam berkarya', 'poin 1 visi misi'),
-(12, 'home', 'Many variations of passages of majority suffered', 'poin 2 visi misi'),
-(13, 'home', 'Variations of passages one of Lorem majority suffered alteration', 'poin 3 visi misi');
+(1, 'home', 'Selamat datang di era baru perindustrian', 'banner1'),
+(2, 'home', 'Tetap hijau, tetap selaras, tetap membumi', 'banner1_2'),
+(3, 'home', 'Bantu kami untuk menjaga bumi tetap hijau', 'banner2'),
+(4, 'home', '“Yang diperlukan agar dunia selaras hanyalah bila makhluk mengikuti hukum alam”', 'banner2_2'),
+(5, 'home', '– Paulo Coelho-', 'banner2_3'),
+(6, 'home', 'Alam Hijau Selaras', 'banner3'),
+(7, 'home', 'In House Brand Tissue Production for : ', 'banner3_2'),
+(8, 'home', 'Bluebird, Circle-K, SOGO, YOA, LOTTE, Alfamart, Giant, Federal Oil, RS Pantai Indah Kapuk', 'banner3_3'),
+(9, 'home', 'PT Alam Hijau Selaras', 'judul main moto'),
+(10, 'home', 'Selaras dengan alam', 'main moto'),
+(11, 'home', 'Industri kami sedang bergerak menuju Industri Hijau dimana kami meminimalisir seluruh dampak negatif dari pembangunan dan kegiatan industri. Kami juga mengedepankan industri Padat Karya dengan mengajarkan keterampilan bagi sumber daya manusia yang kami bina.', 'detail moto'),
+(12, 'home', 'Hijau', 'judul moto 1'),
+(13, 'home', 'Bergerak untuk bumi yang tetap hijau', 'isi moto 1'),
+(14, 'home', 'Kualitas Bersaing', 'judul moto 2'),
+(15, 'home', 'Salah satu produk terbaik di kelasnya, hanya untuk anda', 'isi moto 2'),
+(16, 'home', 'Pembangunan Manusia', 'judul moto 3'),
+(17, 'home', 'Kami membekali setiap orang dalam tim kami dengan keahlian, profesionalitas, dan rasa kekeluargaan.', 'isi moto 3'),
+(18, 'home', 'Visi & Misi Kami', 'visi misi'),
+(19, 'home', 'The Goal Is Living a Green Life', 'judul visi misi'),
+(20, 'home', 'Visi kami adalah untuk menjadi perusahaan terdepan yang terus melakukan perubahan atau invoasi untuk produk-produk personal care yang lebih hijau, sesuai dengan nama kami, Alam Hijau Selaras', 'isi visi misi'),
+(21, 'home', 'Mengutamakan profesionalisme dan standard yang tinggi dalam berkarya', 'poin 1 visi misi'),
+(22, 'home', 'Many variations of passages of majority suffered', 'poin 2 visi misi'),
+(23, 'home', 'Variations of passages one of Lorem majority suffered alteration', 'poin 3 visi misi'),
+(24, 'about us', 'PT Alam Hijau Selaras adalah perusahaan pengemasan tisu yang telah memiliki pengalaman sejak tahun 2005 dan telah menjadi produsen In-House Tissue Brand bagi merek-merek besar indonesia seperti BlueBird, Circle-K, SOGO, Carrefour, Alfamart, Giant, Federal Oil, RS Pantai Indah Kapuk.', 'baris 1'),
+(25, 'about us', 'Pada tahun 2019 ini, kami juga mulai merintis merek dagang kami sendiri yaitu Caris. Berdasarkan komitmen untuk memberikan kualitas pengemasan terbaik 7 dengan harga terbaik, kami siap untuk masuk ke pasar persaingan sehat industri pengemasan nasional.', 'baris 2'),
+(26, 'about us', 'Dengan dibentuknya tim swa-distribusi langsung dari pabrik, kami menjamin kualitas produk yang sampai ke tangan Anda adalah yang terbaik dari kami. Kebahagiaan kami adalah apabila kami dipercaya untuk berpartisipasi dalam menjaga kebersihan dan kesehatan seluruh keluarga Anda.', 'baris 3'),
+(27, 'products', 'Facial Tissue', 'judul product1'),
+(28, 'products', '- Kami menyediakan tissue wajah dengan tekstur paling halus dan lembut serta kuat, aman untuk kulit wajah anak-anak sekalipun. Dengan sistem tissue tarik lembaran, kami menjamin tissue yang higienis dengan potongan yang rapi dan embos terbaik. ', 'isi product1 poin 1'),
+(29, 'products', '- Facial tissue kami dapat dikemas menggunakan plastik ataupun karton kokoh, sesuai dengan kebutuhan Anda. Ukuran, desain, dan gambarnya pun dapat disesuaikan dengan permintaan dari merek Anda.', 'isi product1 poin 2'),
+(30, 'products', 'Pop up Tissue', 'judul product2'),
+(31, 'products', 'Sebagai alternatif dari facial tissue, Anda dapat memilih pop-up Tissue dengan ukuran setengah dari facial tissue yang lebih ergonomis dan ekonomis. \r\nSama dengan konsep facial tissue, pop-up tissue memiliki sistem tissue tarik lembaran dengan kemasan plastik atau karton sesuai kebutuhan. Kami juga menyediakan kemasan reffil untuk kebutuhan kantor dan rumah tangga  Anda yang memiliki dispenser sendiri.', 'isi product2'),
+(32, 'products', 'Toilet Roll Tissue', 'judul product3'),
+(33, 'products', 'Toilet Roll Tissue kami dibuat dengan teknologi terbaik di kelasnya sehingga memiliki bahan yang kuat, tidak mudah sobek dengan penyerapan maksimal, serta digulung dengan rapi dan padat. ', 'isi product3 poin1'),
+(34, 'products', 'Toilet roll tissue kami dapat dibungkus dengan plastik atau kertas agar lebih ramah terhadap lingkungan. Tersedia dalam ukuran satuan, maupun beberapa tissue dalam  satu kemasan sesuai kebutuhan merek Anda.', 'isi product3 poin2'),
+(35, 'products', 'Napkin Tissue: luncheon & cocktail', 'judul product4'),
+(36, 'products', 'Bahan Napkin Tissue lebih kasar daripada facial tissue karena memiliki embossed bertekstur agar tidak mudah terurai dan tercampur dengan makanan.', 'isi product4 poin1'),
+(37, 'products', 'Napkin Tissue kami memiliki dua ukuran yaitu luncheon yang lebih besar dan cocktail yang lebih kecil untuk hidangan penutup atau coffe break.', 'isi product4 poin2'),
+(38, 'products', 'Economist tissue dispenser and refill', 'judul product5'),
+(39, 'products', 'Digunakan untuk memenuhi kebutuhan toilet kantor atau pertokoan, tissue dengan dispenser khusus ini lebih ekonomis dan ramah lingkungan karena bebas plastik pembungkus satuan. ', 'isi product5 poin1'),
+(40, 'products', 'Kami menyediakan dispenser khusus yang dapat ditempel semi-permanen di kamar mandi serta menyediakan refill dari dispenser tersebut.', 'isi product5 poin2'),
+(41, 'eco-friendly', 'Eco-Friendly', 'judul'),
+(42, 'eco-friendly', 'Sesuai dengan nama perusahaan ini, kami percaya bahwa suatu industri dapat terus berkarya apabila selalu selaras dengan alam di mana kami berpijak. Tanggung jawab atas masa depan lingkungan ada di tangan kami, oleh sebab itu kami sedang mengembangkan teknologi untuk membuat produk yang ramah lingkungan.', 'deskripsi 1 '),
+(43, 'eco-friendly', 'Dalam waktu dekat akan memproduksi :', 'deskripsi 2'),
+(44, 'eco-friendly', 'Green Party Ware', 'produk 1'),
+(45, 'eco-friendly', 'Kebutuhan piring sekali pakai dalam suatu pesta masih dibutuhkan untuk meminimalisasi kesibukan tuan rumah. Kami sedang mencoba untuk memenuhi kebutuhan Anda seperti gelas, piring, sendok dan garpu sekali pakai tanpa plastik, tidak beracun.', 'deskripsi produk 1'),
+(46, 'eco-friendly', 'Bamboo-based disposable plates', 'produk 2'),
+(47, 'eco-friendly', 'Salah satu party ware yang sedang kami garap adalah piring dari bahan bambu, berasal dari alam sehingga lebih mudah terurai.', 'deskripsi produk 2'),
+(48, 'eco-friendly', 'Unbleached tissue', 'produk 3'),
+(49, 'eco-friendly', 'Tissue cokelat tanpa proses bleaching, lebih aman bagi tubuh karena tidak mengandung bahan kimia pemutih karsinogenik, sekaligus aman bagi lingkungan.', 'deskripsi produk 3'),
+(50, 'eco-friendly', 'Corn-starch based tooth brush.', 'produk 4'),
+(51, 'eco-friendly', 'Sikat gigi adalah produk kebersihan vital keluarga namun menjadi salah satu penyumbang plastik terbesar di dunia. Batang sikat gigi kami yang terbuat dari bonggol jagung menjadi solusi bagi Anda untuk menjaga keluarga higienis tanpa mencemari lingkungan.', 'deskripsi produk 4');
 
 -- --------------------------------------------------------
 
@@ -158,7 +196,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `page_content`
 --
 ALTER TABLE `page_content`
-  MODIFY `page_content_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `page_content_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
 
 --
 -- AUTO_INCREMENT for table `page_image`

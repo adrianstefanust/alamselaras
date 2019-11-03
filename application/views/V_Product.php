@@ -27,9 +27,15 @@
                         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 offset-0">
                             <div class="section-title text-center">
                                 <!-- <h6>Believe In Work</h6> -->
-                                <h2>Facial Tissue</h2>
-                                <h6>-	Kami menyediakan tissue wajah dengan tekstur paling halus dan lembut serta kuat, aman untuk kulit wajah anak-anak sekalipun. Dengan sistem tissue tarik lembaran, kami menjamin tissue yang higienis dengan potongan yang rapi dan embos terbaik. </h6>
-                                <h6>-	Facial tissue kami dapat dikemas menggunakan plastik ataupun karton kokoh, sesuai dengan kebutuhan Anda. Ukuran, desain, dan gambarnya pun dapat disesuaikan dengan permintaan dari merek Anda. </h6>
+                                <h2>
+                                    <?php echo $products_content[0]['page_text']; ?>
+                                </h2>
+                                <h6>
+                                    <?php echo $products_content[1]['page_text']; ?>
+                                </h6>
+                                <h6>
+                                    <?php echo $products_content[2]['page_text']; ?>
+                                </h6>
                             </div>
                         </div>
                     </div>
@@ -66,10 +72,10 @@
                         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 offset-0">
                             <div class="section-title text-center">
                                 <!-- <h6>Believe In Work</h6> -->
-                                <h2>Pop up Tissue</h2>
-                                <h6>Sebagai alternatif dari facial tissue, Anda dapat memilih pop-up Tissue dengan ukuran setengah dari facial tissue yang lebih ergonomis dan ekonomis. 
-Sama dengan konsep facial tissue, pop-up tissue memiliki sistem tissue tarik lembaran dengan kemasan plastik atau karton sesuai kebutuhan. Kami juga menyediakan kemasan reffil untuk kebutuhan kantor dan rumah tangga  Anda yang memiliki dispenser sendiri.
-</h6>
+                                <h2><?php echo $products_content[3]['page_text']; ?></h2>
+                                <h6>
+                                    <?php echo $products_content[4]['page_text']; ?>
+                                </h6>
                             </div>
                         </div>
                     </div>
@@ -107,10 +113,13 @@ Sama dengan konsep facial tissue, pop-up tissue memiliki sistem tissue tarik lem
                         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 offset-0">
                             <div class="section-title text-center">
                                 <!-- <h6>Believe In Work</h6> -->
-                                <h2>Toilet Roll Tissue</h2>
-                                <h6>Toilet Roll Tissue kami dibuat dengan teknologi terbaik di kelasnya sehingga memiliki bahan yang kuat, tidak mudah sobek dengan penyerapan maksimal, serta digulung dengan rapi dan padat. 
+                                <h2><?php echo $products_content[5]['page_text']; ?></h2>
+                                <h6>
+                                    <?php echo $products_content[6]['page_text']; ?>
                                 </h6>
-                                <h6>Toilet roll tissue kami dapat dibungkus dengan plastik atau kertas agar lebih ramah terhadap lingkungan. Tersedia dalam ukuran satuan, maupun beberapa tissue dalam  satu kemasan sesuai kebutuhan merek Anda.</h6>
+                                <h6>
+                                    <?php echo $products_content[7]['page_text']; ?>
+                                </h6>
                             </div>
                         </div>
                     </div>
@@ -148,11 +157,16 @@ Sama dengan konsep facial tissue, pop-up tissue memiliki sistem tissue tarik lem
                         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 offset-0">
                             <div class="section-title text-center">
                                 <!-- <h6>Believe In Work</h6> -->
-                                <h2>Napkin Tissue: luncheon & cocktail</h2>
-                                <h6>Napkin Tissue digunakan sebagai pengganti serbet sekali pakai agar lebih praktis dan menghindari kegiatan mencuci serbet.  
+                                <h2><?php echo $products_content[8]['page_text']; ?></h2>
+                                <h6>
+                                    <?php echo $products_content[9]['page_text']; ?>
                                 </h6>
-                                <h6>Bahan Napkin Tissue lebih kasar daripada facial tissue karena memiliki embossed bertekstur agar tidak mudah terurai dan tercampur dengan makanan. </h6>
-                                <h6>Napkin Tissue kami memiliki dua ukuran yaitu luncheon yang lebih besar dan cocktail yang lebih kecil untuk hidangan penutup atau coffe break.</h6>
+                                <h6>
+                                    <?php echo $products_content[10]['page_text']; ?>
+                                </h6>
+                                <h6>
+                                    <?php echo $products_content[11]['page_text']; ?>
+                                </h6>
                             </div>
                         </div>
                     </div>
@@ -192,10 +206,13 @@ Sama dengan konsep facial tissue, pop-up tissue memiliki sistem tissue tarik lem
                         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 offset-0">
                             <div class="section-title text-center">
                                 <!-- <h6>Believe In Work</h6> -->
-                                <h2>Economist tissue dispenser and refill</h2>
-                                <h6>Digunakan untuk memenuhi kebutuhan toilet kantor atau pertokoan, tissue dengan dispenser khusus ini lebih ekonomis dan ramah lingkungan karena bebas plastik pembungkus satuan. 
+                                <h2><?php echo $products_content[12]['page_text']; ?></h2>
+                                <h6>
+                                    <?php echo $products_content[13]['page_text']; ?> 
                                 </h6>
-                                <h6>Kami menyediakan dispenser khusus yang dapat ditempel semi-permanen di kamar mandi serta menyediakan refill dari dispenser tersebut. </h6>
+                                <h6>
+                                    <?php echo $products_content[14]['page_text']; ?>
+                                </h6>
                             </div>
                         </div>
                     </div>
