@@ -2,7 +2,7 @@
 <script>
 
 </script>
-<footer id="footer" class="footer-area">
+<footer id="footer" class="footer-area" style="background-color: white">
 
 	<!-- Footer Top Area -->
 	<div class="footer-top-area text-dark section-padding-sm">
@@ -87,9 +87,9 @@
 <!--// Footer Top Area -->
 
 <!-- Footer Bottom Area -->
-<div class="footer-bottom-area bg-dark">
+<div class="footer-bottom-area " style="background-color: white;">
 	<div class="container">
-		<div class="row">
+		<div class="row" style="color: black">
 			<div class="col-lg-8">
 				<ul class="footer-social">
 					<li>

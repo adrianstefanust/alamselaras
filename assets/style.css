@@ -4124,8 +4124,8 @@ Blocks Styles
 .service-icon {
   display: inline-block;
   vertical-align: middle;
-  height: 64px;
-  width: 64px;
+  height: 200px;
+  width: 200px;
   position: relative;
   overflow: hidden; }
   .service-icon span {
