@@ -14,7 +14,7 @@
                             <nav class="menu" style="display: block;">
                                 <ul>
                                     <li class="">
-									  <a href="<?php echo base_url();?>">Home</a>
+									  <a href="<?php echo base_url();?>main">Home</a>
                                        
                                     </li>
                                     <li class="">
@@ -25,10 +25,10 @@
 									<a href="<?php echo base_url();?>product">Products</a>
                                         
                                     </li>
-                                    <li class="">
+                                    <!-- <li class="">
 									<a href="<?php echo base_url();?>ecoFriendly">Eco-friendly</a>
                                         
-                                        </li>
+                                        </li> -->
 										
                                         <li >
 										<a href="<?php echo base_url();?>license">License</a>

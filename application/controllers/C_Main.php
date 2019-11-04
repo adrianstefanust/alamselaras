@@ -2,9 +2,21 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class C_Main extends CI_Controller {
-
-
 	function index(){
+		$this->load->view('template/header');
+		$this->load->view('V_Login');
+	}
+	function prosesLogin(){
+
+		if($_POST["id"]=="ahs" && $_POST["pass"]=="developmentahs"){
+			redirect("main");
+		}
+		else{
+			redirect("/");
+		}
+	}
+
+	function mainPage(){
 		$jsonInsta =  $this->getFeed();
 		$pathGambar = $jsonInsta->graphql->user->edge_owner_to_timeline_media->edges;
 		$arrGambar= array();
@@ -93,7 +105,7 @@ class C_Main extends CI_Controller {
 	}
 	//get insta feed without instagram API
 	function getFeed(){
-		$username = 'testing1179';
+		$username = 'alamhijauselaras__';
 		$instaResult = file_get_contents('https://www.instagram.com/'.$username.'/?__a=1');
 		$insta = json_decode($instaResult);
 		return($insta);

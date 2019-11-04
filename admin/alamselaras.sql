@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.1
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 03, 2019 at 05:13 AM
--- Server version: 10.1.33-MariaDB
--- PHP Version: 7.2.6
+-- Waktu pembuatan: 04 Nov 2019 pada 13.46
+-- Versi server: 10.1.35-MariaDB
+-- Versi PHP: 7.2.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `admin`
+-- Struktur dari tabel `admin`
 --
 
 CREATE TABLE `admin` (
@@ -36,7 +36,7 @@ CREATE TABLE `admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `admin`
+-- Dumping data untuk tabel `admin`
 --
 
 INSERT INTO `admin` (`EMAIL`, `ID`, `NAMA`, `PASSWORD`) VALUES
@@ -45,7 +45,7 @@ INSERT INTO `admin` (`EMAIL`, `ID`, `NAMA`, `PASSWORD`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `page_content`
+-- Struktur dari tabel `page_content`
 --
 
 CREATE TABLE `page_content` (
@@ -56,18 +56,18 @@ CREATE TABLE `page_content` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `page_content`
+-- Dumping data untuk tabel `page_content`
 --
 
 INSERT INTO `page_content` (`page_content_id`, `page_name`, `page_text`, `page_info_div`) VALUES
-(1, 'home', 'Selamat datang di era baru perindustrian', 'banner1'),
+(1, 'home', '', 'banner1'),
 (2, 'home', 'Tetap hijau, tetap selaras, tetap membumi', 'banner1_2'),
 (3, 'home', 'Bantu kami untuk menjaga bumi tetap hijau', 'banner2'),
 (4, 'home', '“Yang diperlukan agar dunia selaras hanyalah bila makhluk mengikuti hukum alam”', 'banner2_2'),
 (5, 'home', '– Paulo Coelho-', 'banner2_3'),
 (6, 'home', 'Alam Hijau Selaras', 'banner3'),
 (7, 'home', 'In House Brand Tissue Production for : ', 'banner3_2'),
-(8, 'home', 'Bluebird, Circle-K, SOGO, YOA, LOTTE, Alfamart, Giant, Federal Oil, RS Pantai Indah Kapuk', 'banner3_3'),
+(8, 'home', 'Bluebird, Circle-K, YOA-Yogya Department Store, LOTTE, Alfamart, Giant, Festival, Caris', 'banner3_3'),
 (9, 'home', 'PT Alam Hijau Selaras', 'judul main moto'),
 (10, 'home', 'Selaras dengan alam', 'main moto'),
 (11, 'home', 'Industri kami sedang bergerak menuju Industri Hijau dimana kami meminimalisir seluruh dampak negatif dari pembangunan dan kegiatan industri. Kami juga mengedepankan industri Padat Karya dengan mengajarkan keterampilan bagi sumber daya manusia yang kami bina.', 'detail moto'),
@@ -115,7 +115,7 @@ INSERT INTO `page_content` (`page_content_id`, `page_name`, `page_text`, `page_i
 -- --------------------------------------------------------
 
 --
--- Table structure for table `page_image`
+-- Struktur dari tabel `page_image`
 --
 
 CREATE TABLE `page_image` (
@@ -125,27 +125,50 @@ CREATE TABLE `page_image` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `page_image`
+-- Dumping data untuk tabel `page_image`
 --
 
 INSERT INTO `page_image` (`page_image_id`, `page_name`, `page_image_path`) VALUES
-(1, 'home_background', 'bg/LOGO_1571124889.jpg'),
+(1, 'home_background', 'bg/LOGO_1572850645.jpg'),
 (2, 'home_background', 'bg/LOGO_1571125900.jpg'),
 (3, 'home_background', 'bg/LOGO_1571127417.jpg'),
 (4, 'breadcrumbarea', 'bg/LOGO_1571132985.jpg'),
 (5, 'about_us_1', 'bg/LOGO_1571157847.JPG'),
 (6, 'about_us_2', 'bg/LOGO_1571157864.JPG'),
 (7, 'about_us_3', 'bg/LOGO_1571157831.JPG'),
-(8, 'facial', ''),
-(9, 'bg_product', 'bg/LOGO_1571158948.jpg'),
-(10, 'bg_about_us', 'bg/LOGO_1571158975.jpg'),
+(9, 'bg_product', 'bg/LOGO_1571297543.jpg'),
+(10, 'bg_about_us', 'bg/LOGO_1572845081.jpg'),
 (11, 'visi_misi', 'bg/LOGO_1571158184.JPG'),
-(12, 'bg_eco', 'bg/LOGO_1571159055.jpg');
+(12, 'bg_eco', 'bg/LOGO_1572845011.jpg'),
+(14, 'roll', 'bg/LOGO_1571292482.jpg'),
+(15, 'roll', 'bg/LOGO_1571292497.jpg'),
+(16, 'roll', 'bg/LOGO_1571292508.JPG'),
+(17, 'roll', 'bg/LOGO_1571292517.jpg'),
+(18, 'napkin', 'bg/LOGO_1571292563.JPG'),
+(19, 'napkin', 'bg/LOGO_1571292572.jpg'),
+(20, 'napkin', 'bg/LOGO_1571292585.jpg'),
+(21, 'refill', 'bg/LOGO_1571292604.jpg'),
+(22, 'refill', 'bg/LOGO_1571292623.jpg'),
+(23, 'refill', 'bg/LOGO_1571292635.jpg'),
+(24, 'pop_up', 'bg/LOGO_1571292660.jpg'),
+(25, 'pop_up', 'bg/LOGO_1571292679.jpg'),
+(26, 'pop_up', 'bg/LOGO_1571292695.jpg'),
+(27, 'facial', 'bg/LOGO_1571292732.jpg'),
+(28, 'facial', 'bg/LOGO_1571292744.JPG'),
+(29, 'facial', 'bg/LOGO_1571292750.jpg'),
+(30, 'facial', 'bg/LOGO_1571293404.jpg'),
+(31, 'facial', 'bg/LOGO_1571293374.jpg'),
+(32, 'pop_up', 'bg/LOGO_1571292712.jpg'),
+(33, 'disney', 'bg/LOGO_1571742915.png'),
+(34, 'disney', 'bg/LOGO_1571742924.png'),
+(35, 'disney', 'bg/LOGO_1571743146.png'),
+(36, 'disney', 'bg/LOGO_1571743299.jpg'),
+(37, 'others', '');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user`
+-- Struktur dari tabel `user`
 --
 
 CREATE TABLE `user` (
@@ -159,53 +182,53 @@ CREATE TABLE `user` (
 --
 
 --
--- Indexes for table `admin`
+-- Indeks untuk tabel `admin`
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`ID`);
 
 --
--- Indexes for table `page_content`
+-- Indeks untuk tabel `page_content`
 --
 ALTER TABLE `page_content`
   ADD PRIMARY KEY (`page_content_id`);
 
 --
--- Indexes for table `page_image`
+-- Indeks untuk tabel `page_image`
 --
 ALTER TABLE `page_image`
   ADD PRIMARY KEY (`page_image_id`);
 
 --
--- Indexes for table `user`
+-- Indeks untuk tabel `user`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`id_user`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `admin`
+-- AUTO_INCREMENT untuk tabel `admin`
 --
 ALTER TABLE `admin`
   MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `page_content`
+-- AUTO_INCREMENT untuk tabel `page_content`
 --
 ALTER TABLE `page_content`
   MODIFY `page_content_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
 
 --
--- AUTO_INCREMENT for table `page_image`
+-- AUTO_INCREMENT untuk tabel `page_image`
 --
 ALTER TABLE `page_image`
-  MODIFY `page_image_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `page_image_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
--- AUTO_INCREMENT for table `user`
+-- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
   MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT;

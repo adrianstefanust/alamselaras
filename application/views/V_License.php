@@ -22,12 +22,20 @@
             <!-- Services Area -->
             <section class="services-area section-padding-lg bg-white">
                 <div class="container">
-
+                <div class="row">
+                        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 offset-0">
+                            <div class="section-title text-center">
+                                <!-- <h6>Believe In Work</h6> -->
+                                <h2>
+                                Kami adalah pemegang lisensi untuk karakter disney untuk tissue produk di Indonesia.                                </h2>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 offset-0">
                             <div class="section-title text-center">
                                 <!-- <h6>Believe In Work</h6> -->
-                                <h2>Disney</h2>
+                               
                                 
                             </div>
                         </div>

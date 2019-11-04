@@ -33,6 +33,7 @@
 
 			<!-- Single Banner -->
 			<div class="single-banner bg-image-2 fullscreen" data-black-overlay="6">
+			
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-7 col-lg-9 col-12">
@@ -56,9 +57,12 @@
 			<!-- Single Banner -->
 			<div class="single-banner bg-image-3 fullscreen" data-black-overlay="6">
 				<div class="container">
+			
 					<div class="row">
 						<div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-12">
 							<div class="single-banner-content single-banner-content-parallax text-center">
+							<img src="<?php echo base_url();?>assets/images/longwayslogowhite.png"  alt="Responsive image" class="img-fluid center-block"  style="margin: 0 auto;"  width="40%">
+
 								<h1>
 									<?php echo $home_content[5]['page_text'];  ?>
 								</h1>
@@ -68,7 +72,7 @@
 								<p>
 									<?php echo $home_content[7]['page_text'];  ?>
 								</p>
-								<a href="about-us-2.html" class="cr-btn cr-btn-lg">
+								<a href="<?php echo base_url();?>main" class="cr-btn cr-btn-lg">
 									<span>Know More</span>
 								</a>
 							</div>
@@ -197,8 +201,8 @@
 								</p>
 								<ul class="cr-liststyle-1">
 									<li><?php echo $home_content[20]['page_text'];  ?></li>
-									<li><?php echo $home_content[21]['page_text'];  ?></li>
-									<li><?php echo $home_content[22]['page_text'];  ?></li>
+									<!-- <li><?php echo $home_content[21]['page_text'];  ?></li>
+									<li><?php echo $home_content[22]['page_text'];  ?></li> -->
 								</ul>
 							
 							</div>
@@ -217,7 +221,7 @@
 
 
 			<style>body {
-  background-color:#1d1d1d !important;
+  background-color:#ffffff !important;
   font-family: "Asap", sans-serif;
   color:#989898;
   font-size:16px;
@@ -308,7 +312,59 @@ img.zoom {
 						</div>
 					</div>
 					<div class="row justify-content-center services-grid">
+<!-- Signle Service -->
+<div class="col-lg-4  col-12">
+							<div class="service text-center">
+								<div class="service-icon">
+									<span>
+									<img  src="<?php echo base_url();?>assets/images/logo/alfa.png" class="zoom img-fluid "  alt="">
+									</span>
+									<span>
+									<img  src="<?php echo base_url();?>assets/images/logo/alfa.png" class="zoom img-fluid "  alt="">
+									</span>
+								</div>
+								<div class="service-content">
+									<h4>Alfamart</h4>
+								</div>
+							</div>
+						</div>
+						<!--// Signle Service -->
 
+						<!-- Signle Service -->
+						<div class="col-lg-4  col-12">
+							<div class="service text-center">
+								<div class="service-icon">
+									<span>
+									<img  src="<?php echo base_url();?>assets/images/logo/Alfamidi.png" class="zoom img-fluid "  alt="">
+									</span>
+									<span>
+									<img  src="<?php echo base_url();?>assets/images/logo/Alfamidi.png" class="zoom img-fluid "  alt="">
+									</span>
+								</div>
+								<div class="service-content">
+									<h4>Alfamidi</h4>
+								</div>
+							</div>
+						</div>
+						<!--// Signle Service -->
+
+						<!--// Signle Service -->
+						<div class="col-lg-4 col-12">
+							<div class="service text-center">
+								<div class="service-icon">
+									<span>
+									<img  src="<?php echo base_url();?>assets/images/logo/circlek.png" class="zoom img-fluid "  alt="">
+									</span>
+									<span>
+									<img  src="<?php echo base_url();?>assets/images/logo/circlek.png" class="zoom img-fluid "  alt="">
+									</span>
+								</div>
+								<div class="service-content">
+									<h4>Circle-K</h4>
+								</div>
+							</div>
+						</div>
+						<!--// Signle Service -->
 						<!-- Signle Service -->
 						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div class="service text-center">
@@ -332,14 +388,14 @@ img.zoom {
 							<div class="service text-center">
 								<div class="service-icon">
 									<span>
-									<img  src="<?php echo base_url();?>assets/images/logo/foodhall.png" class="zoom img-fluid "  alt="">
+									<img  src="<?php echo base_url();?>assets/images/logo/Festival.png" class="zoom img-fluid "  alt="">
 									</span>
 									<span>
-									<img  src="<?php echo base_url();?>assets/images/logo/foodhall.png" class="zoom img-fluid "  alt="">
+									<img  src="<?php echo base_url();?>assets/images/logo/Festival.png" class="zoom img-fluid "  alt="">
 									</span>
 								</div>
 								<div class="service-content">
-									<h4>The Foodhall</h4>
+									<h4>Festival</h4>
 								</div>
 							</div>
 						</div>
@@ -381,41 +437,9 @@ img.zoom {
 						</div>
 						<!--// Signle Service -->
 
-						<!-- Signle Service -->
-						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
-							<div class="service text-center">
-								<div class="service-icon">
-									<span>
-									<img  src="<?php echo base_url();?>assets/images/logo/alfa.png" class="zoom img-fluid "  alt="">
-									</span>
-									<span>
-									<img  src="<?php echo base_url();?>assets/images/logo/alfa.png" class="zoom img-fluid "  alt="">
-									</span>
-								</div>
-								<div class="service-content">
-									<h4>Alfamart</h4>
-								</div>
-							</div>
-						</div>
-						<!--// Signle Service -->
+						
 
-						<!--// Signle Service -->
-						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
-							<div class="service text-center">
-								<div class="service-icon">
-									<span>
-									<img  src="<?php echo base_url();?>assets/images/logo/circlek.png" class="zoom img-fluid "  alt="">
-									</span>
-									<span>
-									<img  src="<?php echo base_url();?>assets/images/logo/circlek.png" class="zoom img-fluid "  alt="">
-									</span>
-								</div>
-								<div class="service-content">
-									<h4>Circle-K</h4>
-								</div>
-							</div>
-						</div>
-						<!--// Signle Service -->
+						
 
 						<!--// Signle Service -->
 						<div class="col-lg-4 col-md-6 col-sm-6 col-12">

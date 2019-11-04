@@ -210,9 +210,9 @@
                                 <h6>
                                     <?php echo $products_content[13]['page_text']; ?> 
                                 </h6>
-                                <h6>
+                                <!-- <h6>
                                     <?php echo $products_content[14]['page_text']; ?>
-                                </h6>
+                                </h6> -->
                             </div>
                         </div>
                     </div>
