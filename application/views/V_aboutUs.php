@@ -20,10 +20,9 @@
                     <div class="row align-items-center">
                         <div class="col-xl-7 col-lg-6 col-12 order-2 order-lg-1">
                             <div class="about-content about-content-2">
-                                <h3>PT Alam Hijau Selaras adalah perusahaan pengemasan tisu yang telah memiliki
-pengalaman sejak tahun 2005 dan telah menjadi produsen In-House Tissue Brand
-bagi merek-merek besar Indonesia seperti BlueBird, Circle-K, SOGO, Carrefour,
-Alfamart, Giant, Federal Oil, RS Pantai Indah Kapuk.</h3>
+                                <h3>
+                                    <?php echo $about_us_content[0]['page_text'];  ?>
+                                </h3>
                                 
                             </div>
                         </div>
@@ -49,7 +48,9 @@ Alfamart, Giant, Federal Oil, RS Pantai Indah Kapuk.</h3>
                         </div>
                         <div class="col-xl-7 col-lg-6 col-12 order-2 order-lg-1">
                             <div class="about-content about-content-2">
-                                <h3>Pada tahun 2019 ini, kami juga mulai merintis merek dagang kami sendiri yaitu Caris. Berdasarkan komitmen untuk memberikan kualitas pengemasan &  harga terbaik, kami siap untuk masuk ke pasar persaingan sehat industri pengemasan nasional.</h3>
+                                <h3>
+                                    <?php echo $about_us_content[1]['page_text'];  ?>
+                                </h3>
                                 
                             </div>
                         </div>
@@ -65,10 +66,9 @@ Alfamart, Giant, Federal Oil, RS Pantai Indah Kapuk.</h3>
                     <div class="row align-items-center">
                         <div class="col-xl-7 col-lg-6 col-12 order-2 order-lg-1">
                             <div class="about-content about-content-2">
-                                <h3>Dengan dibentuknya tim swa-distribusi langsung dari pabrik, kami menjamin
-kualitas produk yang sampai ke tangan Anda adalah yang terbaik dari kami.
-Kebahagiaan kami adalah apabila kami dipercaya untuk berpartisipasi dalam
-menjaga kebersihan dan kesehatan seluruh keluarga Anda.</h3>
+                                <h3>
+                                    <?php echo $about_us_content[2]['page_text'];  ?>
+                                </h3>
                                 
                             </div>
                         </div>

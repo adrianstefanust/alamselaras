@@ -12,9 +12,17 @@ class C_Main extends CI_Controller {
 			$arrGambar[] =$value->node->thumbnail_resources[2]->src;
 		}
 		$data['gambar']=$arrGambar;
+
 		$this->load->model('ContentImage');
 		$data['home_background'] = $this->ContentImage->get('home_background');
 		$data['visi_misi'] = $this->ContentImage->get('visi_misi');
+
+		$this->load->model('ContentText');
+		$data['home_content'] = $this->ContentText->get('home');
+		// print_r($data);
+		// return;
+
+
 		$this->load->view('template/header');
 		$this->load->view('template/topbar');
 		$this->load->view('V_Main',$data);
@@ -28,6 +36,11 @@ class C_Main extends CI_Controller {
 		$data['about_us_2'] = $this->ContentImage->get('about_us_2');
 		$data['about_us_3'] = $this->ContentImage->get('about_us_3');
 
+		$this->load->model('ContentText');
+		$data['about_us_content'] = $this->ContentText->get('about us');
+
+		// print_r($data);
+		// return;
 		$this->load->view('template/header');
 		$this->load->view('template/topbar');
 		$this->load->view('V_aboutUs', $data);
@@ -38,6 +51,10 @@ class C_Main extends CI_Controller {
 
 		$this->load->model('ContentImage');
 		$data['bg_eco'] = $this->ContentImage->get('bg_eco');
+
+		$this->load->model('ContentText');
+		$data['eco_friendly_content'] = $this->ContentText->get('eco-friendly');
+
 		$this->load->view('template/header');
 		$this->load->view('template/topbar');
 		$this->load->view('V_EcoFriendly',$data);
@@ -53,6 +70,10 @@ class C_Main extends CI_Controller {
 		$data['napkin'] = $this->ContentImage->get('napkin');
 		$data['refill'] = $this->ContentImage->get('refill');
 		$data['roll'] = $this->ContentImage->get('roll');
+
+		$this->load->model('ContentText');
+		$data['products_content'] = $this->ContentText->get('products');
+
 		$this->load->view('template/header');
 		$this->load->view('template/topbar');
 		$this->load->view('V_Product',$data);
