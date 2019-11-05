@@ -2,10 +2,37 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class C_Main extends CI_Controller {
+	// function index(){
+	// 	$this->load->view('template/header');
+	// 	$this->load->view('V_Login');
+	// }
+
 	function index(){
+		$jsonInsta =  $this->getFeed();
+		$pathGambar = $jsonInsta->graphql->user->edge_owner_to_timeline_media->edges;
+		$arrGambar= array();
+		foreach ($pathGambar as $key=>$value) {
+			$arrGambar[] =$value->node->thumbnail_resources[2]->src;
+		}
+		$data['gambar']=$arrGambar;
+
+		$this->load->model('ContentImage');
+		$data['home_background'] = $this->ContentImage->get('home_background');
+		$data['visi_misi'] = $this->ContentImage->get('visi_misi');
+
+		$this->load->model('ContentText');
+		$data['home_content'] = $this->ContentText->get('home');
+		// print_r($data);
+		// return;
+
+
 		$this->load->view('template/header');
-		$this->load->view('V_Login');
+		$this->load->view('template/topbar');
+		$this->load->view('V_Main',$data);
+		$this->load->view('template/footer');
 	}
+
+
 	function prosesLogin(){
 
 		if($_POST["id"]=="ahs" && $_POST["pass"]=="developmentahs"){
